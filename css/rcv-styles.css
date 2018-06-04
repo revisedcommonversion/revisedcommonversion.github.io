@@ -32,7 +32,9 @@ h1, h2, h3, h4 {
 
 p {
   font-size: 1em;
+  overflow-wrap: break-word;
   padding-bottom: 0.75em;
+  word-wrap: break-word;
 }
 
 ul {
