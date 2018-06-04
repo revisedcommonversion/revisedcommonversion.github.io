@@ -33,21 +33,18 @@ h1, h2, h3, h4 {
 p {
   font-size: 1em;
   overflow-wrap: break-word;
-  padding-bottom: 0.75em;
+  margin-bottom: 0.75em;
   word-wrap: break-word;
 }
 
-ul {
+ul, ol {
   margin-bottom: 1em;
+  margin-left: 1.5em;
 }
 
-ul li {
+ul li, ol li {
   font-size: 1em;
   margin-bottom: .25em;
-}
-
-ul.plain, ol.plain {
-  margin-left: 1.5em;
 }
 
 a:link,
@@ -92,8 +89,9 @@ div#page {
 }
 
 .topnav {
+  margin-left: 0;
   text-align: center;
-}
+} /* Buttons located at the top of each page. */
 
 .topnav li {
   display: inline-block;
@@ -113,7 +111,7 @@ div#page {
 
 .topnav li a:active {
   background-color: #3a3a41;
-  border: 2px solid silver;
+  border: 1px solid silver;
   color: silver;
 }
 
@@ -141,67 +139,12 @@ nav.topnav {
 
 .site-foot a {
   color: silver;
-}
+} /* Formatting for the footer at the bottom of every page. */
 
 #slogan {
   font-style: italic;
   font-weight: bold;
 }
-
-/***** Toolbar and Site Menu Styles *****/
-#toolbar {
-  background-color: #3a3a41;
-  border: 1px solid silver;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-#main-menu li {
-  float: left;
-  list-style: none;
-}
-
-#main-menu div {
-  background-color: #f0f0f0;
-  display: none;
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-top: 55px;
-  position: absolute;
-  width: 13em;
-}
-
-#main-menu div a {
-  border: 1px solid black;
-  display: block;
-  padding: 1.25em;
-  position: relative;
-  text-decoration: none;
-  width: auto;
-}
-
-#main-menu div a:active {
-  background-color: #3a3a41;
-  color: silver;
-}
-
-#activate {
-  background-color: #3a3a41;
-  border: 1px solid #aefd82;
-  color: #aefd82;
-  cursor: pointer;
-  display: block;
-  text-decoration: none;
-}
-
-.group:after {
-  clear: both;
-  content: '';
-  display: table;
-} /* Fix for clear problem on containing element ("clearfix"). Otherwise, a
-  height would need to be specified to expand #toolbar so that it visibly
-  contains the elements on the page. */
 
 /***** Scripture Text *****/
 .book-title {
@@ -209,47 +152,61 @@ nav.topnav {
   text-transform: uppercase;
 }
 
-.chapter-text {
-  padding: 0 1em
+.book-toc {
+  margin-left: 0;
+  text-align: center;
+} /* Table of contents formatting for individual books */
+
+.book-toc li {
+  display: inline-block;
+  font-size: 1.1em;
+  margin: .25em;
+  text-align: center;
+  width: 12em;
 }
 
-.ch-end {
-  font-size: 1.33em;
-  font-weight: bold;
-  text-align: center;
+.book-toc li a {
+  background-color: #f0f0f0;
+  border: 1px solid #3a3a41;
+  border-radius: 5px;
+  display: block;
+  padding: .12em .3em;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.book-toc li a:active {
+  background-color: #3a3a41;
+  border: 1px solid silver;
+  color: silver;
 }
 
 .ch-outline {
   color: #3a3a41;
-  font-size: .8em;
+  font-size: .9em;
   font-style: italic;
+  margin: 2em 0;
   text-align: center;
 } /* Chapter outline formatting */
 
 .gr-heb {
   font-family: serif;
-} /* Greek and Hebrew formatting */
-
-.hide-text {
-  color: #3a3a41;
-  cursor: pointer;
-  font-size: 1.25em;
-  padding: 0.5em 0;
-  text-align: right;
-  text-decoration: underline;
-}
+} /* Greek and Hebrew text formatting */
 
 .toc li {
   font-size: 1.1em;
   list-style: none;
   margin-bottom: .5em;
-} /* Table of contents for books and chapters. */
+} /* Formatting for the book lising in the table of contents on the OT and NT 
+pages. */
 
 .woc {
   color: #073763;
 } /* Words of Christ */
 
 /***** Two-Column Pages *****/
+/* <<<<< TO BE REMOVED >>>>> */
 #main {
   float: left;
   overflow: hidden;
