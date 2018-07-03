@@ -37,6 +37,15 @@ p {
   word-wrap: break-word;
 }
 
+blockquote {
+  border-left: 1px solid #3a3a41;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0.75em 3em 0.75em 2.5em;
+  padding-left: .5em;
+  text-align: justify;
+}
+
 ul, ol {
   margin-bottom: 1em;
   margin-left: 1.5em;
@@ -49,7 +58,7 @@ ul li, ol li {
 
 a:link,
 a:visited {
-  color: #073763;
+  color: #3a3a41;
 }
 
 header h3 {
@@ -133,8 +142,8 @@ nav.topnav {
 
 .site-foot {
   color: silver;
-  text-align: center;
   margin: 1em 0;
+  text-align: center;
 } /* Footer below the page contents. */
 
 .site-foot a {
@@ -147,6 +156,12 @@ nav.topnav {
 }
 
 /***** Scripture Text *****/
+.book-extras {
+  border-bottom: 1px solid #3a3a41;
+  border-top: 1px solid #3a3a41;
+  padding: 1.5em 0;
+}
+
 .book-title {
   text-align: center;
   text-transform: uppercase;
@@ -267,5 +282,10 @@ table.trip td a {
 .link-trail {
   font-size: .8em;
   margin-top: .5em;
+}
+
+.link-trail a:link, 
+.link-trail a:visited {
+  color: #073763;
 }
 

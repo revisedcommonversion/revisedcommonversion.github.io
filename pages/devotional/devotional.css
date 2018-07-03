@@ -1,0 +1,19 @@
+/*****
+  Stylesheet for the calendar table used on the devotional pages.
+*****/
+
+.calendar {
+  margin-bottom: 1.5em;
+}
+
+.calendar td, .calendar th {
+  width: 14%;
+  text-align: center;
+}
+.calendar td {
+  padding: 0;
+}
+.calendar td a {
+  display: block;
+  padding: .5em;
+}
