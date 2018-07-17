@@ -302,6 +302,8 @@ table.trip td a {
 @media screen and (max-width: 750px) {
   h1.site-title {
     font-size: 1.3em;
+    margin-bottom: 0.25em;
+    padding: 0;
   }
 
   h2 {
