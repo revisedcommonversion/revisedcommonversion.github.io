@@ -15,6 +15,7 @@ h1.site-title {
 
 h2 {
   font-size: 1.75em;
+  margin-bottom: 0.75em;
 }
 
 h3 {
@@ -174,6 +175,7 @@ nav.topnav {
 .book-title {
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .book-toc {
