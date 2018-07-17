@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
 p {
   font-size: 1em;
   overflow-wrap: break-word;
-  margin-bottom: 0.75em;
+  margin-bottom: 1em;
   word-wrap: break-word;
 }
 
@@ -299,13 +299,13 @@ table.trip td a {
 }
 
 /***** Media Query *****/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   h1.site-title {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   h2 {
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding: 0;
   }
 
@@ -314,7 +314,21 @@ table.trip td a {
   }
 
   h4 {
+    color: black;
     font-size: 1em;
+  }
+  
+  p {
+    margin-bottom: 1.25em;
+  }
+  
+  #logo {
+    height: 110px;
+    width: 110px;
+  }
+  
+  .ch-outline {
+    margin: 1.5em 0;
   }
 }
 
