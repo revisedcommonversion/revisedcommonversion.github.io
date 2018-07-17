@@ -155,6 +155,19 @@ nav.topnav {
   font-weight: bold;
 }
 
+.message {
+  background-color: #aefd82;
+  border: 2px solid #38522a;
+  border-radius: 7px;
+  color: #3a3a41;
+  font-weight: bold;
+  margin: 1em;
+  padding: 0.5em;
+  text-align: center;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
 /***** Scripture Text *****/
 .book-extras {
   border-bottom: 1px solid #3a3a41;
