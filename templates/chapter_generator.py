@@ -4,10 +4,10 @@ import chapter_data as data # From chapter_data.py in the same directory.
 chapter_limit = len(data.extras)
 testament_file = ""
 
-if data.testament == "New Testament":
+if data.testament == "NT":
   testament_file = "..\/..\/pages\/nt.html"
-elif data.testament == "Old Testament":
-  testament_file = "../../pages/ot.html"
+elif data.testament == "OT":
+  testament_file = "..\/..\/pages\/ot.html"
 
 # Patterns in the template file to replace.
 book_file_pattern = "\[\[  file_name  \]\]"
@@ -23,6 +23,9 @@ testament_file_pattern = "\[\[  ot_nt_file  \]\]"
 
 # Generate a chapter file for each chapter of the book.
 chapter = 1 # Start at chapter 1.
+
+# Create the book directory.
+os.system("mkdir " + data.book_short_title.lower())
 
 # Loop through each chapter.
 while chapter <= chapter_limit:
