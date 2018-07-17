@@ -61,10 +61,6 @@ a:visited {
   color: #3a3a41;
 }
 
-header h3 {
-  cursor: pointer;
-}
-
 footer {
   font-size: 0.9em;
 }
@@ -112,7 +108,7 @@ div#page {
   background-color: #f0f0f0;
   border: 1px solid #3a3a41;
   border-radius: 5px;
-  padding: .12em .3em;
+  padding: .2em .3em;
   text-decoration: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -300,5 +296,25 @@ table.trip td a {
 .link-trail a:link, 
 .link-trail a:visited {
   color: #073763;
+}
+
+/***** Media Query *****/
+@media screen and (max-width: 720px) {
+  h1.site-title {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
 }
 
