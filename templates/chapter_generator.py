@@ -4,9 +4,9 @@ import chapter_data as data # From chapter_data.py in the same directory.
 chapter_limit = len(data.extras)
 testament_file = ""
 
-if data.testament == "NT":
+if data.testament == "New Testament":
   testament_file = "..\/..\/pages\/nt.html"
-elif data.testament == "OT":
+elif data.testament == "Old Testament":
   testament_file = "..\/..\/pages\/ot.html"
 
 # Patterns in the template file to replace.

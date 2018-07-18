@@ -2,8 +2,8 @@ import os # For running system commands.
 import re # For regular expressions.
 
 ##### CHANGE THESE VARIABLES FOR EACH BOOK #####
-total_chapters = 50 # The number of chapters in the book.
-source_file = "01-Genesis.xhtml" # The name of the file from which the text will be extracted.
+total_chapters = 27 # The number of chapters in the book.
+source_file = "03-Leviticus.xhtml" # The name of the file from which the text will be extracted.
 
 chapter = 1 # Begin with chapter 1.
 ch_end = re.compile(r"\* \* \*") # Regular expression to match the end of a chapter.
