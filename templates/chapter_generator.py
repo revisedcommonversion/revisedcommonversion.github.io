@@ -3,6 +3,7 @@ import chapter_data as data # From chapter_data.py in the same directory.
 
 chapter_limit = len(data.extras)
 testament_file = ""
+directory = data.book_short_title.lower()
 
 if data.testament == "New Testament":
   testament_file = "..\/..\/pages\/nt.html"
@@ -25,7 +26,7 @@ testament_file_pattern = "\[\[  ot_nt_file  \]\]"
 chapter = 1 # Start at chapter 1.
 
 # Create the book directory.
-os.system("mkdir " + data.book_short_title.lower())
+os.system("mkdir " + directory)
 
 # Loop through each chapter.
 while chapter <= chapter_limit:
@@ -68,6 +69,20 @@ while chapter <= chapter_limit:
   os.system("sed -i 's/" + testament_pattern + "/" + data.testament + "/g' " + chapter_file)
   os.system("sed -i 's/" + testament_file_pattern + "/" + testament_file + "/g' " + chapter_file)
   
+  # Move the chapter file to the book directory
+  os.system("mv " + chapter_file + " " + directory)
+  
   chapter += 1
 # End of while loop.
+
+# Copy the chapter text and the notes extractor scripts to the book directory.
+os.system("cp chapter_text.py " + directory)
+os.system("cp insert_notes.py " + directory)
+
+# Move the chapter text XHTML file.
+xhtml_file = input("Type in the name of the XHTML file to move: ")
+os.system("mv " + xhtml_file + " " + directory)
+
+# Launch the next script.
+os.system("cd " + directory + " && python3 chapter_text.py " + directory + " " + str(chapter_limit) + " " + xhtml_file)
 

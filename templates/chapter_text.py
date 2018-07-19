@@ -1,9 +1,10 @@
 import os # For running system commands.
 import re # For regular expressions.
+import sys
 
-##### CHANGE THESE VARIABLES FOR EACH BOOK #####
-total_chapters = 27 # The number of chapters in the book.
-source_file = "03-Leviticus.xhtml" # The name of the file from which the text will be extracted.
+total_chapters = int(sys.argv[2]) # The number of chapters in the book.
+source_file = sys.argv[3] # The name of the file from which the text will be extracted.
+directory = sys.argv[1]
 
 chapter = 1 # Begin with chapter 1.
 ch_end = re.compile(r"\* \* \*") # Regular expression to match the end of a chapter.
@@ -61,6 +62,8 @@ while chapter <= total_chapters:
 # When all is said and done, delete all temporary files.
 os.system("rm *.html.rcv")
 os.system("rm temp.txt")
-os.system("rm chapter_text.py")
 os.system("rm " + source_file)
+
+# Launch the next script.
+os.system("python3 insert_notes.py " + str(total_chapters) + " " + directory)
 
