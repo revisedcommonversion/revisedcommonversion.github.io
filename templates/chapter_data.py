@@ -1,45 +1,33 @@
 # Variables containing book information.
-book_file = "numbers.html"
-book_title = "The Fourth Book of Moses, Called Numbers"
-book_short_title = "Numbers"
+book_file = "joshua.html"
+book_title = "The Book of Joshua"
+book_short_title = "Joshua"
 testament = "Old Testament"
 
 # This dictionary stores the chapter outline and commentary link for each chapter.
 extras = {
-  "1": ("God commands Moses to number the people, 1-4. The princes of the tribes, 5-16. The number of every tribe, 17-46. The Levites are exempted for the service of the Lord, 47-54.", "https:\/\/drive.google.com\/open?id=1MKGSR7uMDv4C1ACuzEKyRyWhuQXh9YmdoxAJJi88sUM"),
-  "2": ("The order of the tribes in their tents, 1-34.", "https:\/\/drive.google.com\/open?id=1eHGxIbyVft1iMbVBj9FbaRaqdSIby_QJEumGBl67FIQ"),
-  "3": ("The sons of Aaron, 1-4. The Levites are given to the priests instead of the first-born, 5-13; and are numbered by their families, 14-20. The families, number, and charge of the Gershonites, 21-26; of the Kohathites, 27-32; of the Merarites, 33-37. The place and charge of Moses and Aaron, 38, 39. The first-born are freed by the Levites, 40-43. The surplus are redeemed, 44-51.", "https:\/\/drive.google.com\/open?id=1HPc4DM80oW2EnzPq83KjQE0u7n--K3N2l4MCg2e_-cg"),
-  "4": ("The age at which the Levites were to begin to serve and the duration of the service, 1-3. The duty of the Kohathites, 4-15. The charge of Eleazar, 16. The office of the priests, 17-20. The duty of the Gershonites, 21-28; of the Merarites, 29-33. The number of the Kohathites, 34-37; of the Gershonites, 38-41; and of the Merarites, 42-49.", "https:\/\/drive.google.com\/open?id=1sDAcbScpXrtLePoPXk8jzY6iYUPGka0DwXD38XAVVjw"),
-  "5": ("The unclean are removed out of the camp, 1-4. Restitution is to be made in trespass, 5-10. The trial of jealousy, 11-31.", "https:\/\/drive.google.com\/open?id=1ZzayPLaIAarSHcrBL1f8U1IEnnEmUg0SpndicjqURjQ"),
-  "6": ("The law of the Nazarite in the days of his separation, 1-12; and after their completion, 13-21. The form of blessing the people, 22-27.", "https:\/\/drive.google.com\/open?id=1UEvTMeatbNjCcCac9BhXIhXjkq0Rk7ePjIRTDhTctts"),
-  "7": ("The offering of the princes at the dedication of the tabernacle, 1-9. Their several offerings at the dedication of the altar, 10-88. God speaks to Moses from the mercy seat, 89.", "https:\/\/drive.google.com\/open?id=1aaWqHv5ZHDBiGR8071RvD-Im2AA6qO5Z4NC-voOj9FU"),
-  "8": ("How the lamps are to be lit, 1-4. The consecration of the Levites, 5-22. The age and time of their service, 23-26.", "https:\/\/drive.google.com\/open?id=1cyq6D2inmmE2aVy6JhOGD1lVrUyvLsrPfI6Aj_6uqCU"),
-  "9": ("The passover is again commanded, 1-5. A second passover for the unclean or absent, 6-14. The cloud directs the removals and encampments of the Israelites, 15-23.", "https:\/\/drive.google.com\/open?id=1hRMj-DJsnGFLW5NqU7UlyQH16Qpb0uqzqsKc5Zw2bfQ"),
-  "10": ("The use of the silver trumpets, 1-10. The Israelites remove from Sinai to Paran, 11-13. The order of their march, 14-28. Hobab is entreated by Moses not to leave them, 29-32. The blessing of Moses at the removing and resting of the ark, 33-36.", "https:\/\/drive.google.com\/open?id=1sNkym4PfWSSwSvzDavBk77XE4y90fiwVPD1R7qV91Fo"),
-  "11": ("The burning at Taberah quenched by Moses' prayer, 1-3. The people lust for flesh and loathe manna, 4-9. Moses complains of his charge, 10-15. God promises to divide his burden to seventy elders and to give the people flesh for a month, 16-20. Moses' faith is staggered, 21-30. Quails are given in wrath at Kibroth-hattaavah, 31-35.", "https:\/\/drive.google.com\/open?id=1tC5zX-P92nOnxHswZegwK4FJbMESCP0R_0CpoL_PkFk"),
-  "12": ("God rebukes the sedition of Miriam and Aaron, 1-10. Miriam's leprosy is healed at the prayer of Moses, 11-13. God commands her to be shut out of the host, 14, 15. The people encamp in the wilderness of Paran, 16.", "https:\/\/drive.google.com\/open?id=14YVSuA8ZJ9X9F6v_Zr4Qrm1gwjQI82Vgp4hzgdSpkzQ"),
-  "13": ("The names of the men who were sent to search the land, 1-16. Their instructions, 17-20. Their acts, 21-25. Their relation, 26-33.", "https:\/\/drive.google.com\/open?id=1gaVcpNSr9zHpiluablwvmhAPjg7pKu9Z0Zsp0nrjmpA"),
-  "14": ("The people murmur at the news, 1-5. Joshua and Caleb labor to still them, 6-10. God threatens them, 11, 12. Moses intercedes with God and obtains pardon, 13-25. The murmurers are debarred from entering into the land, 26-35. The men who raised the evil report die by a plague, 36-39. The people who would invade the land against the will of God are smitten, 40-45.", "https:\/\/drive.google.com\/open?id=1dRehzL-qGt36dW3Osqi0wEqCBQ_lmFKGypdWoQfy-4s"),
-  "15": ("The law of the meat offering and the drink offering, 1-13. The stranger is under the same law. 14-16. The law of the first of the dough for a heave offering. 17-21. The sacrifice for sins of ignorance, 22-29. The punishment of presumption, 30, 31. He who violated the sabbath is stoned, 32-36. The law of fringes, 37-41.", "https:\/\/drive.google.com\/open?id=1IZjCLnRwKsKLHjQbqU-f-pc-Dgn6__tzSs8cLqyg5iU"),
-  "16": ("The rebellion of Korah, Dathan, and Abiram, 1-22. Moses separates the people from the rebel's tents, 23-30. The earth swallows up Korah, and a fire consumes others, 31-35. The censers are reserved to holy use, 36-40. Fourteen thousand and seven hundred are slain by a plague for murmuring against Moses and Aaron, 41-45. Aaron by incense stays the plague, 46-50.", "https:\/\/drive.google.com\/open?id=1gR1d8b9H-WLxYmP0rl150BV2CR7V6u1C_4QMwqy1_xE"),
-  "17": ("Aaron's rod, among all the rods of the tribes, only flourishes, 1-9. It is left for a monument against the rebels, 10-13.", "https:\/\/drive.google.com\/open?id=1_mIXeguII6pgEbr7tLXGldV98CAHjmxIrKCGVlV2Y88"),
-  "18": ("The charge of the priests and Levites, 1-7. The priests' portion, 8-20. The Levites' portion, 21-24. The heave offering to the priests out of the Levites' portion, 25-32.", "https:\/\/drive.google.com\/open?id=1BjSDxJpXUuyed-e09g-shr3uI0gFODqz6QEUA98CNB4"),
-  "19": ("The water of separation made of the ashes of a red heifer, 1-10. The law for the use of it in purification of the unclean, 11-22.", "https:\/\/drive.google.com\/open?id=1Ck1OBZqAdNq7V3bymDkYaW-8x8m70uab7ptswr3BKOI"),
-  "20": ("The children of Israel come to Zin where Miriam dies, 1. They murmur for lack of water, 2-6. Moses, smiting the rock, brings forth water at Meribah, 7-13. Moses at Kadesh desires passage through Edom, which is denied him, 14-21. At mount Hor Aaron resigns his place to Eleazar and dies, 22-29.", "https:\/\/drive.google.com\/open?id=1VRWmmOOMuTSTuIBCVwPZDh1FMIu8LnTkCDhksx2a_SA"),
-  "21": ("Israel destroys the Canaanites at Hormah, 1-3. The people murmuring are plagued with fiery serpents, 4-6. Those repenting are healed by a brazen serpent, 7-9. Various journeys of the Israelites, 10-20. Sihon is overcome, 21-32, and Og, 33-35.", "https:\/\/drive.google.com\/open?id=1pKgCJMw-Dv_coJ40EvqMsPRM47ecCNOaawqY6MRChS8"),
-  "22": ("Balak's first message for Balaam is refused, 1-14. His second message obtains him, 15-21. An angel would have slain him, if he had not been saved by his donkey, 22-35. Balak entertains him, 36-41.", "https:\/\/drive.google.com\/open?id=1I_x-CtHayHVJ1gNwMC3rsZcTe12Io2Z545cgj_Mrb2w"),
-  "23": ("Balak's sacrifices, 1-6, 13-17, 25-30. Balaam's parables, 7-12, 18-24.", "https:\/\/drive.google.com\/open?id=1aI3LmKwcsg6au3vmKsAPRoOVkoKWw1n5fz0vgfUDg4s"),
-  "24": ("Balaam, leaving divinations, prophesies the happiness of Israel, 1-9. Balak, in anger, dismisses him, 10-14. He prophesies of the Star of Jacob and the destruction of some nations, 15-25.", "https:\/\/drive.google.com\/open?id=1UoLJ6KamB6dlYfbkcIZkbx9alQ8P1EAvUlKn3B6rhko"),
-  "25": ("Israel commits lewdness and idolatry at Shittim, 1-5. Phinehas kills Zimri and Cozbi, 6-9. God therefore gives him an everlasting priesthood, 10-15. The Midianites are to be vexed, 16-18.", "https:\/\/drive.google.com\/open?id=1cDOncpD71LsNKvK2u_KuqfQbjEeJwzinifsE3kKlZVs"),
-  "26": ("The sum of all Israel is taken in the plains of Moab, 1-51. The law of dividing among them the inheritance of the land, 52-56. The families and number of the Levites, 57-62. None was left of those who were numbered at Sinai, except Caleb and Joshua, 63-65.", "https:\/\/drive.google.com\/open?id=1PrYAOOVrQK7UVRo07949WyTDbcP4GA4RkzEg5yJGeEA"),
-  "27": ("The daughters of Zelophehad appeal for an inheritance, 1-5. The law of inheritances, 6-11. Moses, being told of his death, appeals for a successor, 12-17. Joshua is appointed to succeed him, 18-23.", "https:\/\/drive.google.com\/open?id=1Mn7-1xsYIUsqqp4qqnxpCpQn88m914XQ77zI4IBsotc"),
-  "28": ("Offerings are to be observed, 1, 2. The continual burnt offering, 3-8. The offering on the sabbath, 9, 10; on the new moons, 11-15; at the passover, 16-25; in the day of first-fruits, 26-31.", "https:\/\/drive.google.com\/open?id=15LbK0jSv1kdA-otBhFKDfQZPsSKh8Myh1tQxovdMneI"),
-  "29": ("The offering at the feast of trumpets, 1-6; at the day of afflicting their souls, 7-11; and on the eight days of the feast of tabernacles, 12-40.", "https:\/\/drive.google.com\/open?id=1N5v4hoQJMkX1xDqnDhdJW78fd_WAhpld-eyXa35fPuQ"),
-  "30": ("Vows are not to be broken, 1, 2. The exceptions of a maid's vows, 3-5; of a wife's, 6-8; of a widow's, or her who is divorced, 9-16.", "https:\/\/drive.google.com\/open?id=1qQ75HARJupGT6wWrEPixhXdBK7qsiTIEt7OR0vOZT4E"),
-  "31": ("The Midianites are spoiled and Balaam slain, 1-12. Moses is angry with the officers for saving the women alive, 13-18. How the soldiers, with their captives and spoil, are to be purified, 19-24. The proportion in which the prey is to be divided, 25-47. The voluntary oblation to the treasury of the Lord, 48-54.", "https:\/\/drive.google.com\/open?id=1daD__KrGGmw9aSXw1PsQvOw9Zu--fZ1MWUMkH4HXS9I"),
-  "32": ("The Reubenites and Gadites appeal for their inheritance on the east side of Jordan, 1-5. Moses reproves them, 6-15. They offer him conditions with which he is content, 16-32. Moses assigns them the land, 33-38. They conquer it, 39-42.", "https:\/\/drive.google.com\/open?id=1Ub_7Hht29usdL3xsAIAKLj_p_QF7WM-Y8O8qN9Kj2Xw"),
-  "33": ("The forty-two journeys of the Israelites, 1-49. The Canaanites are to be destroyed, 50-56.", "https:\/\/drive.google.com\/open?id=19SQ0u8gKrkEvbIBFkN2Rf73ShmFOoQSXBqA3GeWcM3g"),
-  "34": ("The borders of the land, 1-15. The names of the men who shall divide the land, 16-29.", "https:\/\/drive.google.com\/open?id=1ijeKk71_TYIYsLhbLqbrYQGv3z02OECSUnDP6QI4tnI"),
-  "35": ("Forty-eight cities for the Levites, with their suburbs, and the measure thereof, 1-5. Six of them are to be cities of refuge, 6-8. The laws of murder and manslaughter, 9-30. No satisfaction for murder, 31-34.", "https:\/\/drive.google.com\/open?id=1wLDlU8RsWNlbyHCXpVubE0Wk2PzoPLh7cbVxqrmP_F4"),
-  "36": ("The inconvenience of the inheritance of daughters is remedied by marrying in their own tribes, 1-6, lest the inheritance should be removed from the tribe, 7-9. The daughters of Zelophehad marry their father's brothers' sons, 10-13.", "https:\/\/drive.google.com\/open?id=19oz6QcfLeFCz7MkzYCMVHqENou4KRS1iiVLU0dH7x88")
+  "1": ("", ""),
+  "2": ("", ""),
+  "3": ("", ""),
+  "4": ("", ""),
+  "5": ("", ""),
+  "6": ("", ""),
+  "7": ("", ""),
+  "8": ("", ""),
+  "9": ("", ""),
+  "10": ("", ""),
+  "11": ("", ""),
+  "12": ("", ""),
+  "13": ("", ""),
+  "14": ("", ""),
+  "15": ("", ""),
+  "16": ("", ""),
+  "17": ("", ""),
+  "18": ("", ""),
+  "19": ("", ""),
+  "20": ("", ""),
+  "21": ("", ""),
+  "22": ("", ""),
+  "23": ("", ""),
+  "24": ("", "")
 }
