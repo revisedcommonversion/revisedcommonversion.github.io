@@ -1,7 +1,7 @@
 # Variables containing book information.
-book_file = "joshua.html"
-book_title = "The Book of Joshua"
-book_short_title = "Joshua"
+book_file = "judges.html"
+book_title = "The Book of Judges"
+book_short_title = "Judges"
 testament = "Old Testament"
 
 # This dictionary stores the chapter outline and commentary link for each chapter.
@@ -26,8 +26,5 @@ extras = {
   "18": ("", ""),
   "19": ("", ""),
   "20": ("", ""),
-  "21": ("", ""),
-  "22": ("", ""),
-  "23": ("", ""),
-  "24": ("", "")
+  "21": ("", "")
 }
