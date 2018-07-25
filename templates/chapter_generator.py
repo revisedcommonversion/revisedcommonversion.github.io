@@ -3,7 +3,7 @@ import chapter_data as data # From chapter_data.py in the same directory.
 
 chapter_limit = len(data.extras)
 testament_file = ""
-directory = data.book_short_title.lower()
+directory = data.book_file[:-5] # Slice the string to exclude ".html"
 
 if data.testament == "New Testament":
   testament_file = "..\/..\/pages\/nt.html"
