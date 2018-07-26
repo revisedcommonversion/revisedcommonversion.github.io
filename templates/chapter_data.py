@@ -1,7 +1,7 @@
 # Variables containing book information.
-book_file = "2samuel.html"
-book_title = "The Second Book of Samuel"
-book_short_title = "2nd Samuel"
+book_file = "2kings.html"
+book_title = "The Second Book of the Kings"
+book_short_title = "2nd Kings"
 testament = "Old Testament"
 
 # This dictionary stores the chapter outline and commentary link for each chapter.
@@ -29,6 +29,7 @@ extras = {
   "21": ("", ""),
   "22": ("", ""),
   "23": ("", ""),
-  "24": ("", "")
+  "24": ("", ""),
+  "25": ("", "")
 }
 

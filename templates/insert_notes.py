@@ -14,7 +14,7 @@ notes_end = re.compile(r"<\/div>\n") # Regular expression to match the end of th
 # Loop through the chapters.
 while chapter <= total_chapters:
   # Use curl to get the source code of the webpage from which to extract notes.
-  print("Chapter: " + chapter)
+  print("Chapter: " + str(chapter))
   os.system("curl http://www.revisedcommonversion.com/" + book_name + "/ch" + str(chapter) + " > temp_page.txt")
   
   webpage = open("temp_page.txt", "r") # Open the above downloaded webpage file for reading.
