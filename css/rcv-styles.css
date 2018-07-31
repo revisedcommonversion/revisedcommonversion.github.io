@@ -121,9 +121,13 @@ div#page {
   color: silver;
 }
 
-nav.topnav {
-  margin-top: 1em;
-}
+nav.ch-nav {
+  border-bottom: 1px solid #3a3a41;
+  border-top: 1px solid #3a3a41;
+  margin: 1.5em 0;
+  padding: 1em 0;
+  text-align: center;
+} /* Chapter navigation links at the end of each chapter. */
 
 .bold {
   font-weight: bold;
@@ -165,7 +169,6 @@ nav.topnav {
   -webkit-border-radius: 7px;
 }
 
-/***** Scripture Text *****/
 .book-extras {
   border-bottom: 1px solid #3a3a41;
   border-top: 1px solid #3a3a41;
@@ -216,6 +219,7 @@ nav.topnav {
   text-align: center;
 } /* Chapter outline formatting */
 
+/***** Scripture Text Formatting *****/
 .gr-heb {
   font-family: serif;
 } /* Greek and Hebrew text formatting */
