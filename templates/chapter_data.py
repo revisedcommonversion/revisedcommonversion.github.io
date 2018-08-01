@@ -1,7 +1,7 @@
 # Variables containing book information.
-book_file = "isaiah.html"
-book_title = "The Vision of Isaiah"
-book_short_title = "Isaiah"
+book_file = "hosea.html"
+book_title = "The Word of the Lord to Hosea"
+book_short_title = "Hosea"
 testament = "Old Testament"
 
 # This dictionary stores the chapter outline and commentary link for each chapter.
