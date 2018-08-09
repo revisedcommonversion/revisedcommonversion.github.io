@@ -253,22 +253,6 @@ pages. */
   padding: .25em;
 }
 
-/***** Two-Column Pages *****/
-/* <<<<< TO BE REMOVED >>>>> */
-#main {
-  float: left;
-  overflow: hidden;
-  width: 80%;
-}
-
-#side {
-  overflow: hidden;
-}
-
-.clear {
-  clear: both;
-}
-
 /***** Table Formatting (normal) *****/
 table {
   width: 100%;
