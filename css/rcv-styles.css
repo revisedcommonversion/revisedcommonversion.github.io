@@ -253,6 +253,15 @@ pages. */
   padding: .25em;
 }
 
+/***** Daily Reading List Items *****/
+.reading li a {
+  color: black;
+  display: inline-block;
+  margin-bottom: .1em;
+  padding: .2em .2em 0;
+  text-decoration: none;
+}
+
 /***** Table Formatting (normal) *****/
 table {
   width: 100%;
