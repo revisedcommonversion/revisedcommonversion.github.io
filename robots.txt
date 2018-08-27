@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /templates/
+Disallow: /js/
+Noindex: /templates/
+Sitemap: http://www.revisedcommonversion.com/sitemap.xml
