@@ -65,19 +65,7 @@ permalink: /404.html
   <p id="old-url" style="margin-left:1.5em;"></p>
   <p>See if this link takes you to the correct page:</p>
   <p id="new-url" style="margin-left:1.5em;"></p>
-  <script>
-    var old_url = document.location.href;
-    var new_url = "";
-    var split_url = old_url.split("/");
-    
-    document.getElementById("old-url").innerHTML = document.location.href;
-    if (split_url[3] === "blog") {
-      document.getElementById("new-url").innerHTML = '<a href="http://www.revisedcommonversion.com/pages/articles.html">http://www.revisedcommonversion.com/pages/articles.html</a>';
-    }
-    else {
-      document.getElementById("new-url").innerHTML = '<a href="http://www.revisedcommonversion.com">http://www.revisedcommonversion.com</a>';
-    }
-  </script>
+  <script src="https://www.revisedcommonversion.com/js/error-page.js"></script>
   <p>The RCV website has recently changed hosts and the page structure changed, and you may have been trying to access a link based on the old site structure. Chances are, you may have been looking for one of the following pages.</p>
   <ul>
     <li><a href="https://www.revisedcommonversion.com/pages/articles/add-mobi-file-to-kindle-library.html">How to Add a MOBI File to Your Kindle Library</a></li>
