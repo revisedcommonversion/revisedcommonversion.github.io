@@ -28,6 +28,8 @@
   <link rel="apple-touch-icon" sizes="167x167" href="../images/rcv-icon-167.png">
   <link rel="shortcut icon" href="../images/rcv-icon.png" type="image/png" />
   <link href="../css/rcv-styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="../js/search-page.js"></script>
 </head>
 
 <body>
@@ -56,12 +58,24 @@
 
 <section>
   <h3>Search</h3>
-  <p>Use either of the two search boxes below to search the text of the RCV. Using either search box will take you to the respective search engine page which will list the results of your search query. Results may also vary beteween each search engine. Note that the Google search results will likely contain ads, which I cannot control, nor do I get ad revenue from them, and are usually based on your browsing history. If you do not want ads, use the DuckDuckGo search box.</p>
-  <h3>Search via DuckDuckGo</h3>
-  <iframe src="https://duckduckgo.com/search.html?site=www.revisedcommonversion.com&prefill=Search the RCV" style="overflow:hidden;margin:0;padding:0;width:80%;height:2.5em;" frameborder="0"></iframe>
-  <h3>Search via Google</h3>
-  <p>Work in progress...</p>
-  <!-- https://www.google.com/search?q=site%3Awww.revisedcommonversion.com+propitiation -->
+  <p>Use either of the two buttons below to search the text of the RCV. Clicking the DuckDuckGo button will take you to the DuckDuckGo website and the results, if any, will bring you back to the RCV website. Clicking the Google button will display the results below the search box when the page refreshes. Results may also vary beteween each search engine. Note that the Google search results will likely contain ads. I do not have control over the ads displayed, nor do I have any affiliation with the providers of those ads. If I want good search results, I seemt to have to have the ads. Since this custom Google search is linked to my Google account, I do get revenue from the ads. If you do not want ads, use the DuckDuckGo button.</p>
+  <form id="search-form">
+    <input type="text" id="search-query" value="Search the RCV" /><br />
+    <button id="duck-search-button" type="button">DuckDuckGo</button><button id="google-search-button" type="button">Google</button>
+  </form>
+  <script>
+    (function() {
+      var cx = '001908590793983619654:a0mh5mqee7g';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:searchresults-only></gcse:searchresults-only>
+  </div>
   <nav class="topnav">
     <p><a href="#banner">Top</a></p>
   </nav><!--botnav-->

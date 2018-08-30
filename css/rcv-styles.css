@@ -316,6 +316,31 @@ table.trip td a {
   color: #073763;
 }
 
+/***** HTML Forms *****/
+#search-form {
+  text-align: center;
+}
+
+#search-form input[type="text"] {
+  border-radius: 5px;
+  color: #3a3a41;
+  font-size: 1em;
+  margin-bottom: .5em;
+  overflow: hidden;
+  padding:  .5em;
+  width: 80%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#google-search-button,
+#duck-search-button {
+  font-size: 1em;
+  margin: .5em;
+  padding: .2em .5em;
+  width: 12em;
+}
+
 /***** Media Query *****/
 @media screen and (max-width: 750px) {
   h1.site-title {
