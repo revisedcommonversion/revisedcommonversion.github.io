@@ -3,7 +3,7 @@
   var new_url = "";
   var split_url = old_url.split("/");
 
-  document.getElementById("old-url").innerHTML = document.location.href;
+  //document.getElementById("old-url").innerHTML = document.location.href;
 
   switch (split_url[3]) {
     case "blog":
