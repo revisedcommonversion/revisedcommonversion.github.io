@@ -7,6 +7,9 @@
     case "blog":
       new_url = '<a href="http://www.revisedcommonversion.com/pages/articles.html">http://www.revisedcommonversion.com/pages/articles.html</a>';
       break;
+    case "glossary":
+      new_url = '<a href="http://www.revisedcommonversion.com/pages/glossary.html">http://www.revisedcommonversion.com/pages/glossary.html</a>';
+      break;
     case "devotional":
       new_url = '<a href="http://www.revisedcommonversion.com/pages/devotional/' + split_url[4] + '.html">http://www.revisedcommonversion.com/pages/devotional/' + split_url[4] + '.html</a>';
       break;
