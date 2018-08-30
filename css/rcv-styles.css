@@ -170,6 +170,12 @@ nav.ch-nav {
   -webkit-border-radius: 7px;
 }
 
+.dismiss {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+} /* For dismissing messages. */
+
 .book-extras {
   border-bottom: 1px solid #3a3a41;
   border-top: 1px solid #3a3a41;
