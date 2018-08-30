@@ -19,7 +19,7 @@
       new_url = '<a href="http://www.revisedcommonversion.com/text/exodus/' + split_url[4] + '.html">http://www.revisedcommonversion.com/text/exodus/' + split_url[4] + '.html</a>';
       break;
     default:
-      new_url = "No page to suggest. Try the suggestions below.";
+      new_url = "No page to suggest. Try the suggestion below.";
   }
 
   document.getElementById("new-url").innerHTML = new_url;
