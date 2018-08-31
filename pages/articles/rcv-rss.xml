@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>The Holy Bible: Revised Common Version</title>
+  <link>https://www.revisedcommonversion.com.com</link>
+  <description>A modern Bible revision of a classic Bible text. The Revised Common Version (RCV) is a derivative work of Noah Webster's 1833 Common Version of the Bible (a revision of the King James Version). As with Webster's Common Version, the RCV aims to make updates to words and phrases so that they are better understood by the everyday reader who may not read the scriptures with the aid of commentaries. Care has been taken so that changes to the text are not theologically motivated, but rather are consistent with the original text. Changes include the updating of archaic words to the current equivalent, rearranging of sentences to better follow current English, adjusting of punctuation to aid the reader in the flow of reading, addition of quotation marks, notation of Old Testament quotes in the New Testament, and an outline for each chapter. Digital versions of the RCV have the words of Christ in blue.</description>
+  <image>
+    <url>https://www.revisedcommonversion.com/images/rcv-logo.png</url>
+    <title>Revised Common Version Logo</title>
+    <link>https://www.revisedcommonversion.com.com</link>
+  </image>
+  <item>
+    <title>Genesis 1:3 - Fiat Lux and Common Grace</title>
+    <link>https://www.revisedcommonversion.com/pages/articles/fiat-lux-common-grace.html</link>
+    <description>Fiat lux is a Latin phrase for, 'Let there be light.' When God created the light he established one form of his common grace. Common grace is a term used to describe the blessings God bestows upon every person on Earth, whether a believer or not.</description>
+  </item>
+</channel>
+
+</rss>
