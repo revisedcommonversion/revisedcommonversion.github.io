@@ -171,9 +171,13 @@ nav.ch-nav {
 }
 
 .dismiss {
+  border: 1px solid #3a3a41;
+  border-radius: 5px;
   cursor: pointer;
   display: inline-block;
-  text-decoration: underline;
+  padding: .2em .3em 0 .3em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 } /* For dismissing messages. */
 
 .book-extras {
