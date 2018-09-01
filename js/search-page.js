@@ -7,7 +7,7 @@ $(document).ready(function(){
     window.location = duck_url;
   });
   $("#google-search-button").click(function(){
-    var search_url = "https://www.revisedcommonversion.com/pages/search.html?q=" + $("#search-query").val();
+    var search_url = "https://www.revisedcommonversion.com/pages/results.html?q=" + $("#search-query").val();
     window.location = search_url;
   });
   $(document).keypress(

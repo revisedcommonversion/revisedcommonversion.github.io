@@ -21,6 +21,7 @@
   <meta id="meta-tag-description" property="og:description" content="Search the text of the RCV using either the Google or DuckDuckGo search engine.." />
   <meta itemprop="description" content="Search the text of the RCV using either the Google or DuckDuckGo search engine." />
   <meta name="viewport" content="width=device-width">
+  <meta name="robots" content="noindex">
   <link rel="icon" href="../images/rcv-icon.png" type="image/png" />
   <link rel="apple-touch-icon" href="../images/rcv-icon-120.png"> 
   <link rel="apple-touch-icon" sizes="180x180" href="../images/rcv-icon-180.png">  
@@ -57,13 +58,22 @@
 </header>
 
 <section>
-  <h3>Search</h3>
-  <p>Use either of the two buttons below to search the text of the RCV. Clicking the DuckDuckGo button will take you to the DuckDuckGo website and the results, if any, will bring you back to the RCV website. Clicking the Google button will display the results on a results page on the RCV website. Results may also vary beteween each search engine. Note that the Google search results will likely contain ads.* If you do not want ads (I don't blame you), use the DuckDuckGo button.</p>
-  <form id="search-form">
-    <input type="text" id="search-query" value="Search the RCV" /><br />
-    <button id="duck-search-button" type="button">DuckDuckGo</button><button id="google-search-button" type="button">Google</button>
-  </form>
-  <p style="font-size: .75em; margin-top: 2em;">* I do not have control over the ads displayed, nor do I have any affiliation with the providers of those ads. If I want accurate search results, it seems that the ads have to be present. Since this custom Google search is linked to my Google account, I do get revenue from the ads.</p>
+  <nav class="link-trail"><a href="search.html">Search</a> &gt;</nav>
+  <h3>Results</h3>
+  <div id="google-search-results">
+    <script>
+      (function() {
+        var cx = '001908590793983619654:a0mh5mqee7g';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div><!-- end google-search-results -->
   <nav class="topnav">
     <p><a href="#banner">Top</a></p>
   </nav><!--botnav-->
