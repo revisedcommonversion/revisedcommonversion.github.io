@@ -65,6 +65,8 @@ $(document).ready(function(){
   verses[62] = 'A new heart I will also give you, and a new spirit I will put within you. And I will take away the stony heart out of your flesh and give you a heart of flesh. -Ezekiel 36:26';
   verses[63] = 'Therefore, the law was our school-master to bring us to Christ so that we might be justified by faith. -Galatians 3:24';
   verses[64] = 'In this is love, not that we loved God, but that he loved us and sent his Son to be the propitiation for our sins. -1st John 4:10';
+  verses[65] = 'And one cried to another and said, "Holy, holy, holy is the LORD of hosts. The whole earth is full of his glory." -Isaiah 6:3';
+  verses[66] = 'By the word of the LORD the heavens were made, and all the host of them by the breath of his mouth. -Psalm 33:6';
   
   var verse = Math.floor(Math.random() * verses.length);
   
