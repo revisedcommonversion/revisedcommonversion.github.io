@@ -67,6 +67,8 @@ $(document).ready(function(){
   verses[64] = 'In this is love, not that we loved God, but that he loved us and sent his Son to be the propitiation for our sins. -1st John 4:10';
   verses[65] = 'And one cried to another and said, "Holy, holy, holy is the LORD of hosts. The whole earth is full of his glory." -Isaiah 6:3';
   verses[66] = 'By the word of the LORD the heavens were made, and all the host of them by the breath of his mouth. -Psalm 33:6';
+  verses[67] = 'Your mercy, O LORD, is in the heavens and your faithfulness reaches to the clouds. -Psalm 36:5';
+  verses[68] = 'In the beginning was the Word, and the Word was with God, and the Word was God. -John 1:1';
   
   var verse = Math.floor(Math.random() * verses.length);
   
