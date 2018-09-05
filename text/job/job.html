@@ -31,6 +31,8 @@ redirect_from: "/job/"
   <link rel="apple-touch-icon" sizes="167x167" href="../../images/rcv-icon-167.png">
   <link rel="shortcut icon" href="../../images/rcv-icon.png" type="image/png" />
   <link href="../../css/rcv-styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="../../js/main-menu.js"></script>
 </head>
 
 <body>
@@ -41,19 +43,23 @@ redirect_from: "/job/"
   
 <div id="page">
 <header>
-  <nav>
-    <ul class="topnav">
-      <li><a href="../../index.html">Home</a></li>
-      <li><a href="../../pages/ot.html">Old Testament</a></li>
-      <li><a href="../../pages/nt.html">New Testament</a></li>
-      <li><a href="../../pages/reading.html">Daily Reading</a></li>
-      <li><a href="../../pages/devotional.html">Devotional</a></li>
-      <li><a href="../../pages/glossary.html">Glossary</a></li>
-      <li><a href="../../pages/books.html">Books</a></li>
-      <li><a href="../../pages/download.html">Download</a></li>
-      <li><a href="../../pages/purchase.html">Purchase</a></li>
-    </ul><!--topnav-->
-  </nav>
+  <form id="sitenav" title="Choose a menu option to navigate the RCV website.">
+    <select id="main-menu">
+      <option value="" selected>— Menu —</option>
+      <option value="../../index.html">Home</option>
+      <option value="../../pages/ot.html">Old Testament</option>
+      <option value="../../pages/nt.html">New Testament</option>
+      <option value="../../pages/reading.html">Daily Reading</option>
+      <option value="../../pages/devotional.html">Devotional</option>
+      <option value="../../pages/glossary.html">Glossary</option>
+      <option value="../../pages/books.html">Books</option>
+      <option value="../../pages/download.html">Download</option>
+      <option value="../../pages/purchase.html">Purchase</option>
+      <option value="../../pages/contributions.html">Contributions</option>
+      <option value="../../pages/articles.html">Articles</option>
+      <option value="../../pages/search.html">Search</option>
+    </select><!--main-menu-->
+  </form><!--sitenav-->
   <h2 class="book-title">The Trial of Job</h2>
 </header>
 

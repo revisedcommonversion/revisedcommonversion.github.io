@@ -30,7 +30,9 @@ permalink: /404.html
   <link rel="apple-touch-icon" sizes="152x152" href="https://www.revisedcommonversion.com/images/rcv-icon-152.png">  
   <link rel="apple-touch-icon" sizes="167x167" href="https://www.revisedcommonversion.com/images/rcv-icon-167.png">
   <link rel="shortcut icon" href="https://www.revisedcommonversion.com/images/rcv-icon.png" type="image/png" />
-  <link href="https://www.revisedcommonversion.com/css/rcv-styles.css" rel="stylesheet" type="text/css" />
+  <link href="css/rcv-styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="js/main-menu.js"></script>
 </head>
 
 <body>
@@ -41,19 +43,23 @@ permalink: /404.html
   
 <div id="page">
 <header>
-  <nav>
-    <ul class="topnav">
-      <li><a href="https://www.revisedcommonversion.com/index.html">Home</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/ot.html">Old Testament</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/nt.html">New Testament</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/reading.html">Daily Reading</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/devotional.html">Devotional</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/glossary.html">Glossary</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/books.html">Books</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/download.html">Download</a></li>
-      <li><a href="https://www.revisedcommonversion.com/pages/purchase.html">Purchase</a></li>
-    </ul><!--topnav-->
-  </nav>
+  <form id="sitenav" title="Choose a menu option to navigate the RCV website.">
+    <select id="main-menu">
+      <option value="">— Menu —</option>
+      <option value="https://www.revisedcommonversion.com/index.html">Home</option>
+      <option value="https://www.revisedcommonversion.com/pages/ot.html">Old Testament</option>
+      <option value="https://www.revisedcommonversion.com/pages/nt.html">New Testament</option>
+      <option value="https://www.revisedcommonversion.com/pages/reading.html">Daily Reading</option>
+      <option value="https://www.revisedcommonversion.com/pages/devotional.html">Devotional</option>
+      <option value="https://www.revisedcommonversion.com/pages/glossary.html">Glossary</option>
+      <option value="https://www.revisedcommonversion.com/pages/books.html">Books</option>
+      <option value="https://www.revisedcommonversion.com/pages/download.html">Download</option>
+      <option value="https://www.revisedcommonversion.com/pages/purchase.html">Purchase</option>
+      <option value="https://www.revisedcommonversion.com/pages/contributions.html">Contributions</option>
+      <option value="https://www.revisedcommonversion.com/pages/articles.html">Articles</option>
+      <option value="https://www.revisedcommonversion.com/pages/search.html">Search</option>
+    </select><!--mainmenu-->
+  </form><!--sitenav-->
   <h2 class="book-title">Page Not Found</h2>
 </header>
     
@@ -65,7 +71,7 @@ permalink: /404.html
   <p>The RCV website has recently changed hosts and the page structure changed, and you may have been trying to access a link based on the old site structure. See if the link below takes you to the correct page or at least points you in the right direction.</p>
   <p class="message" id="new-url">No page to suggest. See below.</p>
   <script src="https://www.revisedcommonversion.com/js/error-page.js"></script>
-  <p>If that is not the page you were looking for, try going to the <a href="https://www.revisedcommonversion.com/index.html">Home</a> page, or use the navigation links at the top of the page.</p>
+  <p>If that is not the page you were looking for, try going to the <a href="https://www.revisedcommonversion.com/index.html">Home</a> page, or use the menu at the top of the page.</p>
 </section>
 <footer>
   <nav class="topnav">

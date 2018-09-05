@@ -37,6 +37,8 @@ redirect_from: "/purchase/"
       margin-right: 0.5em;
     }
   </style>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="../js/main-menu.js"></script>
 </head>
 
 <body>
@@ -47,19 +49,23 @@ redirect_from: "/purchase/"
   
 <div id="page">
 <header>
-  <nav>
-    <ul class="topnav">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="ot.html">Old Testament</a></li>
-      <li><a href="nt.html">New Testament</a></li>
-      <li><a href="reading.html">Daily Reading</a></li>
-      <li><a href="devotional.html">Devotional</a></li>
-      <li><a href="glossary.html">Glossary</a></li>
-      <li><a href="books.html">Books</a></li>
-      <li><a href="download.html">Download</a></li>
-      <li><a href="purchase.html">Purchase</a></li>
-    </ul><!--topnav-->
-  </nav>
+  <form id="sitenav" title="Choose a menu option to navigate the RCV website.">
+    <select id="main-menu">
+      <option value="" selected>— Menu —</option>
+      <option value="../index.html">Home</option>
+      <option value="ot.html">Old Testament</option>
+      <option value="nt.html">New Testament</option>
+      <option value="reading.html">Daily Reading</option>
+      <option value="devotional.html">Devotional</option>
+      <option value="glossary.html">Glossary</option>
+      <option value="books.html">Books</option>
+      <option value="download.html">Download</option>
+      <option value="">Purchase</option>
+      <option value="contributions.html">Contributions</option>
+      <option value="articles.html">Articles</option>
+      <option value="search.html">Search</option>
+    </select><!--main-menu-->
+  </form><!--sitenav-->
   <h2 class="book-title">Purchase</h2>
 </header>
 
@@ -69,12 +75,12 @@ redirect_from: "/purchase/"
 <p>The print format of the RCV comes in three varieties. You can choose from two paperback versions and one hardcover version. In paperback, you can choose either the compact version (6x9 inches, 6 point font), or the standard version (7x10 inches, 7 point font). The hardcover version is 6x10 inches and has 6 point font.</p>
 <h4 style="clear: left;">Paperback</h4>
 <ul>
-  <li>Lulu.com - <a href="http://www.lulu.com/shop/william-masopust/the-holy-bible-revised-common-version-compact/paperback/product-23783555.html">Compact Version: $14.99</a>.</li>
+  <li>Lulu.com - <a href="http://www.lulu.com/shop/william-masopust/the-holy-bible-revised-common-version-compact/paperback/product-23783555.html" target="_blank">Compact Version: $14.99</a>.</li>
   <li>Amazon.com - <a href="https://amzn.to/2Pz3K9L" target="_blank">Standard Version: $17.99</a>*.</li>
 </ul>
 <h4>Hard Cover</h4>
 <ul>
-  <li>Lulu.com - <a href="http://www.lulu.com/shop/william-masopust/the-holy-bible-revised-common-version-hardcover/hardcover/product-23783545.html">Hardcover Version: $29.99</a>.</li>
+  <li>Lulu.com - <a href="http://www.lulu.com/shop/william-masopust/the-holy-bible-revised-common-version-hardcover/hardcover/product-23783545.html" target="_blank">Hardcover Version: $29.99</a>.</li>
 </ul>
 <h4>Digital</h4>
 <ul>

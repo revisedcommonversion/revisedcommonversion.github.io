@@ -19,6 +19,8 @@
   <link rel="apple-touch-icon" sizes="167x167" href="../../images/rcv-icon-167.png">
   <link rel="shortcut icon" href="../../images/rcv-icon.png" type="image/png" />
   <link href="../../css/rcv-styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="../../js/main-menu.js"></script>
 </head>
 
 <body>
@@ -29,19 +31,23 @@
   
 <div id="page">
 <header>
-  <nav>
-    <ul class="topnav">
-      <li><a href="../../index.html">Home</a></li>
-      <li><a href="../ot.html">Old Testament</a></li>
-      <li><a href="../nt.html">New Testament</a></li>
-      <li><a href="../reading.html">Daily Reading</a></li>
-      <li><a href="../devotional.html">Devotional</a></li>
-      <li><a href="../glossary.html">Glossary</a></li>
-      <li><a href="../books.html">Books</a></li>
-      <li><a href="../download.html">Download</a></li>
-      <li><a href="../purchase.html">Purchase</a></li>
-    </ul><!--topnav-->
-  </nav>
+  <form id="sitenav" title="Choose a menu option to navigate the RCV website.">
+    <select id="main-menu">
+      <option value="" selected>— Menu —</option>
+      <option value="../../index.html">Home</option>
+      <option value="../ot.html">Old Testament</option>
+      <option value="../nt.html">New Testament</option>
+      <option value="../reading.html">Daily Reading</option>
+      <option value="../devotional.html">Devotional</option>
+      <option value="../glossary.html">Glossary</option>
+      <option value="../books.html">Books</option>
+      <option value="../download.html">Download</option>
+      <option value="../purchase.html">Purchase</option>
+      <option value="../contributions.html">Contributions</option>
+      <option value="../articles.html">Articles</option>
+      <option value="../search.html">Search</option>
+    </select><!--main-menu-->
+  </form><!--sitenav-->
   <h2 class="book-title">Daily Reading: November</h2>
 </header>
 
