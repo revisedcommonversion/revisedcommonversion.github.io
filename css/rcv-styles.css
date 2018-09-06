@@ -3,7 +3,7 @@ Contents:
   - Reset and Element Styles
   - Sitewide Styles
   - Styles Relating to Scripture Text
-  - Single-page or Limited use Styles
+  - Single-page or Limited Use Styles
   - Media Query for Mobile Devices
 ******************************************************************************/
 
@@ -142,6 +142,13 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
     width: 80%; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
 #google-search-button, #duck-search-button { font-size: 1em; margin: .5em;
     padding: .2em .5em; width: 12em; }
+
+/* Networking Links */
+.networking { margin-left: 0; }
+.networking li { display: inline-block; list-style: none; margin: 0 auto;
+    padding: .25em 0; width: 16em; }
+.networking li a { display: block; text-decoration: none; }
+.networking li a img { height: 1em; width: 1em; }
 
 /*******                MEDIA QUERY FOR MOBILE DEVICES                 *******/
 @media screen and (max-width: 750px) {
