@@ -8,6 +8,9 @@
     if (split_url[4].length < 6) {
       chapter = split_url[4];
     }
+    else {
+      chapter = split_url[3];
+    }
   }
 
   switch (split_url[3]) {
