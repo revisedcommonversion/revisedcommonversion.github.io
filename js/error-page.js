@@ -227,5 +227,5 @@
       new_url = "No page to suggest for " + old_url + ". See below.";
   }
 
-  document.getElementById("new-url").innerHTML = '<span class="bold">' + split_url[3] + ', ' + chapter_text + '</span><br />' + new_url;
+  document.getElementById("new-url").innerHTML = '<span style="line-height: 1.5;">' + split_url[3] + ', ' + chapter_text + '</span><br />' + new_url;
 })();
