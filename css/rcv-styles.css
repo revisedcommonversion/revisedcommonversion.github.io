@@ -71,7 +71,7 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 .link-trail { font-size: .8em; margin-top: .5em; }
 .link-trail a:link, .link-trail a:visited { color: #073763; }
 
-.topnav { text-align: center; }
+.topnav p { text-align: center; }
 
 /* Styling for the footer at the bottom of every page. */
 .site-foot { color: silver; margin: 1em 0; text-align: center; }
