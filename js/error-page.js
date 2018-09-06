@@ -3,10 +3,12 @@
   var new_url = "";
   var split_url = old_url.split("/");
   var chapter = "";
+  var chapter_text = "chapter unknown";
   
   if (split_url[4]) {
     if (split_url[4].length < 6) {
       chapter = split_url[4];
+      chapter_text = chapter;
     }
     else {
       chapter = split_url[3];
@@ -225,5 +227,5 @@
       new_url = "No page to suggest for " + old_url + ". See below.";
   }
 
-  document.getElementById("new-url").innerHTML = '<span class="bold">' + split_url[3] + ', ' + chapter + '</span><br />' + new_url;
+  document.getElementById("new-url").innerHTML = '<span class="bold">' + split_url[3] + ', ' + chapter_text + '</span><br />' + new_url;
 })();
