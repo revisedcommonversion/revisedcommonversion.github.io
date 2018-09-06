@@ -88,58 +88,11 @@ div#page {
   -webkit-border-radius: 10px;
 }
 
-/***** MAIN MENU FORM *****/
-#sitenav {
-  margin-bottom: 1em;
-}
-
-#main-menu {
-  background-color: #f0f0f0;
-  border: 1px solid #3a3a41;
-  border-radius: 5px;
-  font-size: 1em;
-  padding: .5em;
-  width: 30%;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-/***** MAIN MENU FORM *****/
-
 #banner {
   background-color: #3a3a41;
   width: 100%;
   text-align: center;
 }
-
-/***** MENU BUTTONS *****/
-.topnav {
-  margin-left: 0;
-  text-align: center;
-} /* Buttons located at the top of each page. */
-
-.topnav li {
-  display: inline-block;
-  font-size: 1em;
-  margin: .5em .15em;
-}
-
-.topnav li a {
-  background-color: #f0f0f0;
-  border: 1px solid #3a3a41;
-  border-radius: 5px;
-  padding: .2em .3em;
-  text-decoration: none;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-.topnav li a:active {
-  background-color: #3a3a41;
-  border: 1px solid silver;
-  color: silver;
-}
-/***** MENU BUTTONS *****/
 
 nav.ch-nav {
   border-bottom: 1px solid #3a3a41;
@@ -347,6 +300,23 @@ table.trip td a {
 }
 
 /***** HTML Forms *****/
+/***** Main Menu Form *****/
+#sitenav {
+  margin-bottom: 1em;
+}
+
+#main-menu {
+  background-color: #f0f0f0;
+  border: 1px solid #3a3a41;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: .5em;
+  width: 30%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/***** Search Form *****/
 #search-form {
   text-align: center;
 }
