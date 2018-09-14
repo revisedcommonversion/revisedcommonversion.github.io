@@ -69,6 +69,10 @@ $(document).ready(function(){
   verses[66] = 'By the word of the LORD the heavens were made, and all the host of them by the breath of his mouth. -Psalm 33:6';
   verses[67] = 'Your mercy, O LORD, is in the heavens and your faithfulness reaches to the clouds. -Psalm 36:5';
   verses[68] = 'In the beginning was the Word, and the Word was with God, and the Word was God. -John 1:1';
+  verses[69] = '"All who the Father gives me shall come to me, and he who comes to me, I will in no way reject." -John 6:37';
+  verses[70] = 'Then Jesus spoke again to them, saying, "I am the light of the world. He who follows me shall not walk in darkness, but shall have the light of life." -John 8:12';
+  verses[71] = 'The LORD is great and greatly to be praised, and his greatness is unsearchable. -Psalm 145:3';
+  verses[72] = '"My sheep hear my voice, and I know them. They follow me, and I give eternal life to them. They shall never perish, and no one shall pluck them out of my hand." -John 10:27-28';
   
   var verse = Math.floor(Math.random() * verses.length);
   
