@@ -73,6 +73,7 @@ $(document).ready(function(){
   verses[70] = 'Then Jesus spoke again to them, saying, "I am the light of the world. He who follows me shall not walk in darkness, but shall have the light of life." -John 8:12';
   verses[71] = 'The LORD is great and greatly to be praised, and his greatness is unsearchable. -Psalm 145:3';
   verses[72] = '"My sheep hear my voice, and I know them. They follow me, and I give eternal life to them. They shall never perish, and no one shall pluck them out of my hand." -John 10:27-28';
+  verses[73] = 'Blessed is the man whom you choose and cause to approach you so that he may dwell in your courts. We shall be satisfied with the goodness of your house, even of your holy temple. -Psalm 65:4';
   
   var verse = Math.floor(Math.random() * verses.length);
   
