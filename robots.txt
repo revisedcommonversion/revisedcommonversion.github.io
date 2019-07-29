@@ -1,6 +1,4 @@
 User-agent: *
 Disallow: /templates/
 Disallow: /js/
-Noindex: /templates/
-Noindex: /js/
 Sitemap: http://www.revisedcommonversion.com/sitemap.xml
