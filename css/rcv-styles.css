@@ -61,6 +61,8 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 
 #banner { background-color: #3a3a41; width: 100%; text-align: center; }
 
+#logo { height: 150px; width: 150px; }
+
 /* Main Menu Form */
 #sitenav { margin-bottom: 1em; }
 #main-menu { background-color: #f0f0f0; border: 1px solid #3a3a41;
