@@ -44,8 +44,9 @@ th, td { padding: .5em; text-align: left; }
 th { background-color: #3a3a41; color: #ff8900; }
 table tr:nth-child(odd) { background-color: #f0f0f0; }
 table tr:nth-child(even) { background-color: white; }
+caption { font-size: 1.5em; font-weight: bold; padding: .5em; }
 
-/* Triple-Column Table (3 columns of equal length; the entire cell is 
+/* Triple-Column Table (3 columns of equal width; the entire cell is 
 clickable) */
 table.trip td, table.trip th { width: 33%; text-align: center; }
 table.trip td { padding: 0; }
@@ -153,6 +154,12 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
     padding: .25em 0; width: 16em; }
 .networking li a { display: block; text-decoration: none; }
 .networking li a img { height: 1em; width: 1em; }
+
+/* Harmony of the Gospels */
+table.gospel-harmony th { text-align: center; }
+table.gospel-harmony tr td:nth-child(1) { text-align: center; width: 3em; }
+table.gospel-harmony td { line-height: 1.6; }
+table.gospel-harmony td span { display: inline-block; }
 
 /*******                MEDIA QUERY FOR MOBILE DEVICES                 *******/
 @media screen and (max-width: 750px) {
