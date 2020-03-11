@@ -60,7 +60,9 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 /* Organized by page position, top-down. */
 /* Also includes generic use classes. */
 
-#banner { background-color: #3a3a41; width: 100%; text-align: center; }
+#banner { background-image: url("../images/rcv-prayer-banner.png"); 
+    background-repeat: no-repeat; background-position: center top; 
+    background-attachment: fixed; width: 100%; text-align: center; }
 
 #logo { height: 150px; width: 150px; }
 
@@ -169,6 +171,8 @@ table.gospel-harmony td span { display: inline-block; }
   h4 { color: black; font-size: 1em; }
   
   p { margin-bottom: 1.25em; }
+  
+  #banner { background-image: url("../images/rcv-prayer-banner-small.png"); }
   
   #logo { height: 110px; width: 110px; }
   
