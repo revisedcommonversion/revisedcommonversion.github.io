@@ -1,0 +1,183 @@
+/******************************************************************************
+Contents:
+  - Reset and Element Styles
+  - Sitewide Styles
+  - Styles Relating to Scripture Text
+  - Single-page or Limited Use Styles
+  - Media Query for Mobile Devices
+******************************************************************************/
+
+/*******                    RESET AND ELEMENT STYLES                   *******/
+
+/* Set all margins and padding to 0 */
+* { margin: 0; padding: 0; }
+
+body { background-color: #3a3a41; font-family: sans-serif; font-size: 110%; }
+
+h1.site-title { color: #ff8900; font-size: 2em; }
+h2 { font-size: 1.75em; margin-bottom: 0.75em; }
+h2.book-title { text-align: center; text-transform: uppercase; margin: 0; }
+h3 { font-size: 1.5em; }
+h4 { color: #3a3a41; font-size: 1.25em; }
+h1, h2, h3, h4 { padding: .5em 0; }
+
+p { font-size: 1em; overflow-wrap: break-word; margin-bottom: 1em;
+    word-wrap: break-word; }
+
+blockquote { border-left: 1px solid #3a3a41; font-size: 1em; font-style: italic;
+    margin: 0.75em 3em 0.75em 2.5em; padding-left: .5em; text-align: justify; }
+
+ul, ol { margin-bottom: 1em; margin-left: 1.5em; }
+ul li, ol li { font-size: 1em; margin-bottom: .25em; }
+
+a:link, a:visited { color: #3a3a41; }
+
+footer { font-size: 0.9em; }
+
+section { border: 1px solid #3a3a41; border-radius: 10px; margin: 10px 0;
+    padding: 0px 0.5em; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+/* Table Formatting (normal) */
+table { width: 100%; margin-bottom: 1em; }
+table, th, td { border: 1px solid black; border-collapse: collapse; }
+th, td { padding: .5em; text-align: left; }
+th { background-color: #3a3a41; color: #ff8900; }
+table tr:nth-child(odd) { background-color: #f0f0f0; }
+table tr:nth-child(even) { background-color: white; }
+caption { font-size: 1.5em; font-weight: bold; padding: .5em; }
+
+/* Triple-Column Table (3 columns of equal width; the entire cell is 
+clickable) */
+table.trip td, table.trip th { width: 33%; text-align: center; }
+table.trip td { padding: 0; }
+table.trip td a { display: block; padding: .5em; }
+
+div#content, div#page { background-color: #ffffff; border-radius: 10px;
+    clear: both; margin: auto; max-width: 56em; padding: 1em; text-align: left;
+    -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+/*****                          SITEWIDE STYLES                          *****/
+/* Organized by page position, top-down. */
+/* Also includes generic use classes. */
+
+#banner { background-image: url("../images/rcv-prayer-banner.png"); 
+    background-repeat: no-repeat; background-position: center top; 
+    background-attachment: fixed; width: 100%; text-align: center; }
+
+#logo { height: 150px; width: 150px; }
+
+/* Main Menu Form */
+#sitenav { margin-bottom: 1em; }
+#main-menu { background-color: #f0f0f0; border: 1px solid #3a3a41;
+    border-radius: 5px; font-size: 1em; padding: .5em; width: 30%;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+/* Link trails (breadcrumbs) */
+.link-trail { font-size: .8em; margin-top: .5em; }
+.link-trail a:link, .link-trail a:visited { color: #073763; }
+
+.topnav p { text-align: center; }
+
+/* Styling for the footer at the bottom of every page. */
+.site-foot { color: silver; margin: 1em 0; text-align: center; }
+.site-foot a { color: silver; }
+
+.bold { font-weight: bold; }
+
+.it { font-style: italic; }
+
+.center { text-align: center; }
+
+/*******               STYLES RELATING TO SCRIPTURE TEXT               *******/
+
+/* Styling for OT and NT table of contents */
+.toc li { font-size: 1.1em; list-style: none; margin-bottom: .5em; }
+
+/* Chapter navigation links at the end of each chapter. */
+.ch-nav { border-bottom: 1px solid #3a3a41; border-top: 1px solid #3a3a41;
+    margin: 1.5em 0; padding: 1em 0; text-align: center; }
+
+/* Styling for individual book table of contents. */
+.book-toc { margin-left: 0; text-align: center; }
+.book-toc li { display: inline-block; font-size: 1.1em; margin: .25em;
+    text-align: center; width: 12em; }
+.book-toc li a { background-color: #f0f0f0; border: 1px solid #3a3a41;
+    border-radius: 5px; display: block; padding: .12em .3em;
+    text-decoration: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.book-toc li a:active { background-color: #3a3a41; border: 1px solid silver;
+    color: silver; }
+
+.book-extras { border-bottom: 1px solid #3a3a41; border-top: 1px solid #3a3a41;
+    padding: 1.5em 0; }
+
+/* Styling for chapter outline. */
+.ch-outline { color: #3a3a41; font-size: .9em; font-style: italic;
+    margin: 2em 0; text-align: center; }
+
+/* Styling for Greek and Hebrew text. */
+.gr-heb { font-family: serif; }
+
+/* Words of Christ */
+.woc { color: #073763; }
+
+/* Table of Contents for navigating the Psalms */
+.psalms-toc { margin: .25em 2em; text-align: center; }
+.psalms-toc li { display: inline-block; list-style: none; margin: .25em; }
+.psalms-toc li  a{ color: #073763; display: block; padding: .25em; }
+
+/*******               SINGLE-PAGE OR LIMITED USE STYLES               *******/
+
+/* Message box with dismiss button. */
+.message { background-color: #aefd82; border: 2px solid #38522a;
+    border-radius: 7px; color: #3a3a41; font-weight: bold; margin: 1em;
+    padding: 0.5em; text-align: center; word-wrap: break-word;
+    -moz-border-radius: 7px; -webkit-border-radius: 7px; }
+.dismiss { border: 1px solid #3a3a41; border-radius: 5px; cursor: pointer;
+    display: inline-block; padding: .2em .3em 0 .3em; -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; }
+
+#slogan { font-style: italic; font-weight: bold; }
+
+/* Daily Reading List Items */
+.reading li a { color: black; display: inline-block; margin-bottom: .1em;
+    padding: .2em .2em 0; }
+
+/* Search Form */
+#search-form { text-align: center; }
+#search-form input[type="text"] { border-radius: 5px; color: #3a3a41;
+    font-size: 1em; margin-bottom: .5em; overflow: hidden; padding: .5em;
+    width: 80%; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+#google-search-button, #duck-search-button { font-size: 1em; margin: .5em;
+    padding: .2em .5em; width: 12em; }
+
+/* Networking Links */
+.networking { margin-left: 0; }
+.networking li { display: inline-block; list-style: none; margin: 0 auto;
+    padding: .25em 0; width: 16em; }
+.networking li a { display: block; text-decoration: none; }
+.networking li a img { height: 1em; width: 1em; }
+
+/* Harmony of the Gospels */
+table.gospel-harmony th { text-align: center; }
+table.gospel-harmony tr td:nth-child(1) { text-align: center; width: 3em; }
+table.gospel-harmony td { line-height: 1.6; }
+table.gospel-harmony td span { display: inline-block; }
+
+/*******                MEDIA QUERY FOR MOBILE DEVICES                 *******/
+@media screen and (max-width: 750px) {
+  h1.site-title { font-size: 1.3em; margin-bottom: 0.25em; padding: 0; }
+  h2 { font-size: 1.2em; padding: 0; }
+  h3 { font-size: 1.1em; }
+  h4 { color: black; font-size: 1em; }
+  
+  p { margin-bottom: 1.25em; }
+  
+  #banner { background-image: url("../images/rcv-prayer-banner-small.png"); }
+  
+  #logo { height: 110px; width: 110px; }
+  
+  #main-menu { width: 100%; }
+  
+  .ch-outline { margin: 1.5em 0; }
+}
+
