@@ -21,6 +21,8 @@ h3 { font-size: 1.5em; }
 h4 { color: #3a3a41; font-size: 1.25em; }
 h1, h2, h3, h4 { padding: .5em 0; }
 
+hr { border-top: 1px solid #3a3a41; margin: 2em 3em 1em;}
+
 p { font-size: 1em; overflow-wrap: break-word; margin-bottom: 1em;
     word-wrap: break-word; }
 
