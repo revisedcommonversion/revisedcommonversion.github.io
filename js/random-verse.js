@@ -74,6 +74,7 @@ $(document).ready(function(){
   verses[71] = 'The LORD is great and greatly to be praised, and his greatness is unsearchable. -Psalm 145:3';
   verses[72] = '"My sheep hear my voice, and I know them. They follow me, and I give eternal life to them. They shall never perish, and no one shall pluck them out of my hand." -John 10:27-28';
   verses[73] = 'Blessed is the man whom you choose and cause to approach you so that he may dwell in your courts. We shall be satisfied with the goodness of your house, even of your holy temple. -Psalm 65:4';
+  verses[74] = 'All the paths of the LORD are mercy and truth to those who keep his covenant and his testimonies. -Psalm 25:10';
   
   var verse = Math.floor(Math.random() * verses.length);
   
