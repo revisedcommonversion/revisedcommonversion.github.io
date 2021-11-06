@@ -1,2 +1,14 @@
-  <p>I have updated the formatting of the PDF file on the Download page to look like the formatting in the print versions of the RCV found on the Purchase page. In addition to changing the formatting, the PDF has been resized to 8.5x11 inch paper. What this means is that you can now print your own RCV Bible at home. The margins should be deep enough on the spine side of the page that you could punch holes in the pages and put them in a three-ring binder. Furthermore, the odd and even pages should line up properly for two-sided printing, if your printer supports that feature.</p>
-  <p>If you decide to give this a try, please feel free to let me know how it looks or send me a picture of your print-your-own RCV Bible.</p>
+  <p>Some time ago, I pulled my copy of the Septuagint off my bookshelf and began to peruse it. I don't recall why I was reading the Septuagint. Most likely, I was either wanting to get a different take on a passage for clarity, or I was reading an alternate translation of a passage. What caught my eye is that there was an extra bit of text after the 150th Psalm. Below is that text, which is an unofficial 151st Psalm. It wasn't numbered in my copy of the Septuagint, but I'm just going to refer to it as Psalm 151. As you read this text, try to think about one detail of the story David leaves out.</p>
+  <hr />
+  <h3>Psalm 151</h3>
+  <p>This Psalm is a genuine one of David, though supernumerary, composed when he fought in single combat with Goliad[1].</p>
+  <p>1 I was small among my brethren, and youngest in my father's house: I tended my father's sheep.</p>
+  <p>2 My hands formed a musical instrument, and my fingers tuned a psaltery.</p>
+  <p>3 And who shall tell my Lord? the Lord himself, he himself hears.</p>
+  <p>4 He sent forth his angel, and took me from my father's sheep, and he anointed me with the oil of his anointing.</p>
+  <p>5 My brothers were handsome and tall; but the Lord did not take pleasure in them.</p>
+  <p>6 I went forth to meet the Philistine; and he cursed my by his idols.</p>
+  <p>7 But I drew his own sword, and beheaded him, and removed reproach from the children of Israel.</p>
+  <p>[1] - Goliath</p>
+  <hr />
+  <p>Did you notice what David did not mention about his battle with Goliath? He didn't mention anything about his sling and the stone that we typically associate with David in that encounter. Anyhow, I found this text to be quite interesting and decided to share it with you on the RCV website.</p>
