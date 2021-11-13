@@ -1,14 +1,3 @@
-  <p>Some time ago, I pulled my copy of the Septuagint off my bookshelf and began to peruse it. I don't recall why I was reading the Septuagint. Most likely, I was either wanting to get a different take on a passage for clarity, or I was reading an alternate translation of a passage. What caught my eye is that there was an extra bit of text after the 150th Psalm. Below is that text, which is an unofficial 151st Psalm. It wasn't numbered in my copy of the Septuagint, but I'm just going to refer to it as Psalm 151. As you read this text, try to think about one detail of the story David leaves out.</p>
-  <hr />
-  <h3>Psalm 151</h3>
-  <p>This Psalm is a genuine one of David, though supernumerary, composed when he fought in single combat with Goliad[1].</p>
-  <p>1 I was small among my brethren, and youngest in my father's house: I tended my father's sheep.</p>
-  <p>2 My hands formed a musical instrument, and my fingers tuned a psaltery.</p>
-  <p>3 And who shall tell my Lord? the Lord himself, he himself hears.</p>
-  <p>4 He sent forth his angel, and took me from my father's sheep, and he anointed me with the oil of his anointing.</p>
-  <p>5 My brothers were handsome and tall; but the Lord did not take pleasure in them.</p>
-  <p>6 I went forth to meet the Philistine; and he cursed my by his idols.</p>
-  <p>7 But I drew his own sword, and beheaded him, and removed reproach from the children of Israel.</p>
-  <p>[1] - Goliath</p>
-  <hr />
-  <p>Did you notice what David did not mention about his battle with Goliath? He didn't mention anything about his sling and the stone that we typically associate with David in that encounter. Anyhow, I found this text to be quite interesting and decided to share it with you on the RCV website.</p>
+  <p>I can honestly say that I have never read the text of the Apocrypha. I've always been curious about it, but never took the time to read any of the text. I decided to start with the shorter works in the Apocrypha as a sort of sample of the text. One of the shorter works is some extra text found in the <a href="../../text/esther/esther.html">Story of Esther</a>. I was immediately fascinated by this extra text in Esther as it provided more details and extended accounts of portions of the canonical Esther. For instance, the king, Ahasuerus (named Artaxerxes in the Apocryphal text) wrote two letters mentioned in Esther. The canonical text does not contain those letters, but only mentions them; however, the Apocryphal text of Esther gives the full written letter. Another very interesting thing about the Apocryphal text of Esther is that, unlike the canonical Esther, it actually mentions God by name. In fact, both Mordecai and Esther prayed to God, and those prayers are recorded in the Apocryphal text.</p>
+  <p>Since I found this text to be so fascinating, I decided to put it on the RCV website in some form for you to read. I have put together <a href="https://personal.onlyoffice.com/products/files/doceditor?fileid=4349364&doc=d3JNT3lmZkprZE5RYUsyZm16bU9tWW44Q2VCbVR4bU1BNDNQM1R3QVNyRT0_NDM0OTM2NA" target="_blank">a document</a> that contains the Apocryphal text of Esther. I have organized the document by the chapter in which the text appears in the Greek Septuagint. I have also noted where the Apocryphal text is placed in the Notes section at the bottom of each chapter page containing the text on the RCV website.</p>
+  <p>Now, as you read this text, keep in mind that this Apocryphal text (and all Apocryphal text) is to be read as a historical account and not as Scripture.</p>
