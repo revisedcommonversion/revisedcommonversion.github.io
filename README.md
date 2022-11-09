@@ -27,4 +27,4 @@ You are free to copy, display, distribute, quote, or share this work. You may al
 
 When attributing this work, you may simply use the RCV abbreviation with quotations, or you may note the Revised Common Version as a source for quotations, such as in a list of sources or a bibliography. For derivative works, please note that your work is a derivative of the Revised Common Version. I would also appreciate a link to the RCV website with any attributions.
 
-If you choose to distribute or create a derivative work of the RCV, I would humbly ask that you distribute it under these same terms of usage. If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`william@masopust.us`).
+If you choose to distribute or create a derivative work of the RCV, I would humbly ask that you distribute it under these same terms of usage. If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`info@revisedcommonversion.com`).
