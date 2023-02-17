@@ -3,6 +3,8 @@
 
 **A modern Bible revision of a classic Bible text.**
 
+2023 Edition [r2302]: (2008-2023)
+
 Edited by: William Masopust
 
 http://www.revisedcommonversion.com or http://rcv.xyz
@@ -13,16 +15,28 @@ The Revised Common Version (RCV) is a derivative work of Noah Webster's 1833 Com
 
 ## Sources:
 
-Sources used in the revision process of the RCV are in the Public Domain and are the following: American Standard Version, The Analytical Greek Lexicon (Bagster), Brown-Driver-Briggs Hebrew and English Lexicon, Biblia Sacra Juxta Vulgatam Clementinam, Geneva Bible (1560), The Greek New Testament (Tregelles), The Interlinear Literal Translation of the Greek New Testament (G.R. Berry), Jamieson-Fausset-Brown Bible Commentary, John Gill's Exposition of the Entire Bible, King James Version, Matthew Henry's Commentary on the Whole Bible, The Pulpit Commentary, The Septuagint Version of the Old Testament and Apocrypha (Brenton), Strong's Exhaustive Concordance, Thayer's Greek Lexicon, Webster's Revised Unabridged Dictionary of the English Language (1828 and 1913), Wesley's Notes on the Bible, World English Bible, Young's Literal Translation, and various commentaries and sermons of John Calvin.
+### Biblical Texts
+
+King James Version, The Septuagint Version of the Old Testament and Apocrypha (Brenton), The Interlinear Literal Translation of the Greek New Testament (G.R. Berry), Young's Literal Translation, World English Bible, American Standard Version, The Greek New Testament (Tregelles), Geneva Bible (1560), Biblia Sacra Juxta Vulgatam Clementinam.
+
+### Reference Texts
+
+Brown-Driver-Briggs Hebrew and English Lexicon, Thayer's Greek Lexicon, The Analytical Greek Lexicon (Bagster), Webster's Revised Unabridged Dictionary of the English Language (1828 and 1913), Strong's Exhaustive Concordance, The Treasury of Scripture Knowledge.
+
+### Commentaries and Sermons
+
+The Pulpit Commentary, Jamieson-Fausset-Brown Bible Commentary, John Gill's Exposition of the Entire Bible, Matthew Henry's Commentary on the Whole Bible, Wesley's Notes on the Bible, and various commentaries and sermons of John Calvin.
 
 ## Usage:
 
+© 2023 William Masopust
+
 This work is licensed under the Creative Commons BY-NC-SA 4.0 (Attribution—Noncommercial—Share Alike) license. Information on this license may be found on the Creative Commons website (http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You are free to copy, display, distribute, quote, or share this work. You may also create a derivative work based upon this work for personal use. I ask that you do not create derivative works for commercial purposes. There are enough commercialized Bibles in this world. This Bible is to be a Bible for the people.
+You are free to copy, display, distribute, quote, or share this work. You are also free to modify this work and create derivative works of your own based upon this work. However, I ask that you do not do so for commercial purposes.
 
 > "Freely you have received, freely give." -Matthew 10:8
 
-When attributing this work, you may simply use the RCV abbreviation with quotations, or you may note the Revised Common Version as a source for quotations, such as in a list of sources or a bibliography. For derivative works, please note that your work is a derivative of the Revised Common Version. I would also appreciate a link to the RCV website with any attributions.
+When quoting the RCV, you may simply use the RCV abbreviation with quotations, or you may note the Revised Common Version as a source for quotations, such as in a list of sources or a bibliography. When attributing this work in other modifications and derivative works, please retain all copyright notices and note that your work is a derivative of the Revised Common Version. I would also appreciate a link to the RCV website with any attributions.
 
-If you choose to distribute or create a derivative work of the RCV, I would humbly ask that you distribute it under these same terms of usage. If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`info@revisedcommonversion.com`).
+If you choose to distribute your modifications or derivative works based upon the RCV, I would humbly ask that you distribute them under the terms of the Creative Commons BY-NC-SA 4.0 license. Please follow the above URL so that you may read the license and know your rights regarding the usage of this work. If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`info@revisedcommonversion.com`).
