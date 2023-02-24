@@ -15,6 +15,8 @@ The Revised Common Version (RCV) is a derivative work of Noah Webster's 1833 Com
 
 ## Sources:
 
+Sources used in the revision process of the RCV are in the Public Domain. They are divided into three groups: Biblical Texts, Reference Texts, and Commentaries.
+
 ### Biblical Texts
 
 King James Version, The Septuagint Version of the Old Testament and Apocrypha (Brenton), The Interlinear Literal Translation of the Greek New Testament (G.R. Berry), Young's Literal Translation, World English Bible, American Standard Version, The Greek New Testament (Tregelles), Geneva Bible (1560), Biblia Sacra Juxta Vulgatam Clementinam.
@@ -23,9 +25,9 @@ King James Version, The Septuagint Version of the Old Testament and Apocrypha (B
 
 Brown-Driver-Briggs Hebrew and English Lexicon, Thayer's Greek Lexicon, The Analytical Greek Lexicon (Bagster), Webster's Revised Unabridged Dictionary of the English Language (1828 and 1913), Strong's Exhaustive Concordance, The Treasury of Scripture Knowledge.
 
-### Commentaries and Sermons
+### Commentaries
 
-The Pulpit Commentary, Jamieson-Fausset-Brown Bible Commentary, John Gill's Exposition of the Entire Bible, Matthew Henry's Commentary on the Whole Bible, Wesley's Notes on the Bible, and various commentaries and sermons of John Calvin.
+The Pulpit Commentary, Jamieson-Fausset-Brown Bible Commentary, John Gill's Exposition of the Entire Bible, Matthew Henry's Commentary on the Whole Bible, and Wesley's Notes on the Bible.
 
 ## Usage:
 
