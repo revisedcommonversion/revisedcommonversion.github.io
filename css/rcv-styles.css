@@ -153,13 +153,6 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 #google-search-button, #duck-search-button { font-size: 1em; margin: .5em;
     padding: .2em .5em; width: 12em; }
 
-/* Networking Links */
-.networking { margin-left: 0; }
-.networking li { display: inline-block; list-style: none; margin: 0 auto;
-    padding: .25em 0; width: 16em; }
-.networking li a { display: block; text-decoration: none; }
-.networking li a img { height: 1em; width: 1em; }
-
 /* Harmony of the Gospels */
 table.gospel-harmony th { text-align: center; }
 table.gospel-harmony tr td:nth-child(1) { text-align: center; width: 3em; }
