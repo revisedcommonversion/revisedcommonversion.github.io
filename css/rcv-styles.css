@@ -28,7 +28,7 @@ p { font-size: 1em; overflow-wrap: break-word; margin-bottom: 1em;
     word-wrap: break-word; }
 
 blockquote { border-left: 1px solid #3a3a41; font-size: 1em; font-style: italic;
-    margin: 0.75em 3em 0.75em 2.5em; padding-left: .5em; text-align: justify; }
+    margin: 1.5em 3em 1.5em 2.5em; padding-left: .5em; text-align: justify; }
 
 ul, ol { margin-bottom: 1em; margin-left: 1.5em; }
 ul li, ol li { font-size: 1em; margin-bottom: .25em; }
