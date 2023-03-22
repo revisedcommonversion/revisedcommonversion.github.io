@@ -9,7 +9,7 @@ Edited by: William Masopust
 
 http://www.revisedcommonversion.com or http://rcv.xyz
 
-## Usage:
+## License:
 
 © 2023 William Masopust
 
