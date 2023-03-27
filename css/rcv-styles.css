@@ -56,6 +56,9 @@ table tr:nth-child(odd) { background-color: #f0f0f0; }
 table tr:nth-child(even) { background-color: white; }
 caption { font-size: 1.5em; font-weight: bold; padding: .5em; }
 
+table.frame-ends { border-width: 1px 0; }
+table.grid-rows>*>tr>* { border-width: 1px 0; }
+
 /* Triple-Column Table (3 columns of equal width; the entire cell is 
 clickable) */
 table.trip td, table.trip th { width: 33%; text-align: center; }
@@ -157,7 +160,7 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 #search-form input[type="text"] { border-radius: 5px; color: #3a3a41;
     font-size: 1em; margin-bottom: .5em; overflow: hidden; padding: .5em;
     width: 80%; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
-#google-search-button, #duck-search-button { font-size: 1em; margin: .5em;
+#duck-search-button { font-size: 1em; margin: .5em;
     padding: .2em .5em; width: 12em; }
 
 /* Harmony of the Gospels */
@@ -165,6 +168,10 @@ table.gospel-harmony th { text-align: center; }
 table.gospel-harmony tr td:nth-child(1) { text-align: center; width: 3em; }
 table.gospel-harmony td { line-height: 1.6; }
 table.gospel-harmony td span { display: inline-block; }
+
+table.daily-reading td { text-align: center; border-color: silver; }
+table.daily-reading tr { background-color: white; }
+table.daily-reading tr td:nth-child(1) { font-weight: bold; }
 
 /*******                MEDIA QUERY FOR MOBILE DEVICES                 *******/
 @media screen and (max-width: 750px) {
