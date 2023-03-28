@@ -1,9 +1,7 @@
+  <!-- newitem -->
   <item>
     <title>[[  title  ]]</title>
     <link>[[  url  ]]</link>
     <description>[[  description  ]]...</description>
     <pubDate>[[  pub_date  ]]</pubDate>
   </item>
-  <!-- newitem -->
-</channel>
-</rss>

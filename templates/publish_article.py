@@ -71,7 +71,7 @@ os.system('sed -i "s/' + url_pattern + '/' + article_url + '/g" rss-chunk.txt')
 os.system('sed -i "s/' + description_pattern + '/' + article_description + '/g" rss-chunk.txt')
 os.system('sed -i "s/' + pub_date_pattern + '/' + publish_date + '/g" rss-chunk.txt')
 
-insert_chunk_pattern = re.compile(r'<!-- newitem -->')
+insert_chunk_pattern = re.compile(r'  <!-- newitem -->')
 insert_chunk = False
 
 rss_file = open("rcv-rss.xml", "r") # Read from the RSS file.
@@ -80,12 +80,10 @@ rss_chunk_file = open("rss-chunk.txt", "r")
 chunk_text = rss_chunk_file.read() # Store the contents of the rss chunk file in memory.
 
 for line in rss_file:
-  if not insert_chunk:
-    if insert_chunk_pattern.search(line):
-      insert_chunk = True
-      temp_rss.write(chunk_text)
-    else:
-      temp_rss.write(line)
+  if insert_chunk_pattern.search(line):
+    temp_rss.write(chunk_text)
+  else:
+    temp_rss.write(line)
 
 # Close the files.
 rss_file.close()
