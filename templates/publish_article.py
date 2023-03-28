@@ -100,3 +100,13 @@ os.system("rm rcv-rss.xml.rcv") # Remove the temporary RSS file.
 os.system("mv " + article_file + " ../pages/articles/" + article_file) # Move the new article to the articles directory.
 os.system("cp rcv-rss.xml ../pages/articles/rcv-rss.xml") # Copy the RSS file to the articles directory, replacing the existing RSS file there.
 
+################################################################## Final output.
+
+# Eventually, this should be automatically inserted into the Articles page. But
+#   until then, this output will be manually copied and pasted into the Articles
+#   page directly under the <!--latest-article--> comment.
+
+print("\nCopy and paste the following line of HTML into the Articles page.")
+print()
+print('<li><a href="articles/' + article_file + '">' + article_title + '</a> [' + publish_date + ']</li>')
+print()
