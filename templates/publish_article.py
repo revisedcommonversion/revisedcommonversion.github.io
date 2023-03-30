@@ -10,15 +10,16 @@ summary_title_pattern = "\[\[  summary_title  \]\]"
 pub_date_pattern = "\[\[  pub_date  \]\]"
 url_pattern = "\[\[  url  \]\]"
 
+publish_date = time.strftime("%a, %d %b %Y") # Get the current date. Format: Thu, 06 Sep 2018.
+publish_year = time.strftime("%Y") # Get the current year.
+
 article_file_name = input("Type in the file name without the extension: ")
 article_file = article_file_name + ".html"
-article_url = "https:\/\/www.revisedcommonversion.com\/pages\/articles\/" + article_file
+article_url = "https:\/\/www.revisedcommonversion.com\/pages\/articles\/" + publish_year + "\/" + article_file
 
 article_title = input("Article title: ")
 article_summary_title = input("Article summary title: ")
 article_description = input("Article description: ")
-
-publish_date = time.strftime("%a, %d %b %Y") # Get the current date. Format: Thu, 06 Sep 2018.
 
 os.system("touch " + article_file) # Create the new article file.
 
@@ -97,7 +98,7 @@ os.system("rm rcv-rss.xml.rcv") # Remove the temporary RSS file.
 
 ###################################################################### Clean up.
 
-os.system("mv " + article_file + " ../pages/articles/" + article_file) # Move the new article to the articles directory.
+os.system("mv " + article_file + " ../pages/articles/" + publish_year + "/" + article_file) # Move the new article to the articles directory.
 os.system("cp rcv-rss.xml ../pages/articles/rcv-rss.xml") # Copy the RSS file to the articles directory, replacing the existing RSS file there.
 
 ################################################################## Final output.
@@ -108,5 +109,5 @@ os.system("cp rcv-rss.xml ../pages/articles/rcv-rss.xml") # Copy the RSS file to
 
 print("\nCopy and paste the following line of HTML into the Articles page.")
 print()
-print('<li><a href="articles/' + article_file + '">' + article_title + '</a> [' + publish_date + ']</li>')
+print('<li><a href="articles/' + publish_year + '/' + article_file + '">' + article_title + '</a> [' + publish_date + ']</li>')
 print()

@@ -1,1 +1,1 @@
-<p>This is a test article to see if the updated Python script works. This article is fancy.</p>
+<p>This is a test article to see if the updated Python script works. This article is fancy because it now is filed in the appropriate year directory.</p>
