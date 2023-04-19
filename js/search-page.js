@@ -11,6 +11,15 @@ $(document).ready(function(){
       alert("Please provide a search query.");
     }
   });
+  $("#ecosia-search-button").click(function(){
+    if ($("#search-query").val().length > 0) {
+      var ecosia_url = "https://www.ecosia.org/search?q=" + $("#search-query").val() + "%20site%3Arevisedcommonversion.com";
+      window.location = ecosia_url;
+    }
+    else {
+      alert("Please provide a search query.");
+    }
+  });
   $(document).keypress(
     function(event){
       if (event.which == '13') {
@@ -22,4 +31,5 @@ $(document).ready(function(){
 /*
   Example search links:
     DuckDuckGo: https://duckduckgo.com/?q=propitiation+site%3Awww.revisedcommonversion.com&ia=web
+    Ecosia: https://www.ecosia.org/search?q=scepter%20site%3Arevisedcommonversion.com
 */
