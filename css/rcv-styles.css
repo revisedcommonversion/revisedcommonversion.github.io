@@ -160,8 +160,8 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 #search-form input[type="text"] { border-radius: 5px; color: #3a3a41;
     font-size: 1em; margin-bottom: .5em; overflow: hidden; padding: .5em;
     width: 80%; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
-#duck-search-button, #ecosia-search-button { font-size: 1em; margin: .5em;
-    padding: .2em .5em; width: 12em; }
+#bing-search-button, #duck-search-button, #ecosia-search-button {
+    font-size: 1em; margin: .5em; padding: .2em .5em; width: 12em; }
 
 /* Harmony of the Gospels */
 table.gospel-harmony th { text-align: center; }
