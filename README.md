@@ -3,7 +3,7 @@
 
 **A modern Bible revision of a classic Bible text.**
 
-*2023 Edition [r2302]:* (2008-2023)
+*2023 Edition [r2312]:* (2008-2023)
 
 Edited by: William Masopust
 
@@ -11,7 +11,7 @@ http://www.revisedcommonversion.com or http://rcv.xyz
 
 ## License:
 
-© 2023 William Masopust
+© 2024 William Masopust
 
 This work and the accompanying materials are made available under the terms of the Eclipse Public License 2.0. Information on this license may be found at https://www.eclipse.org/legal/epl-2.0/.
 
