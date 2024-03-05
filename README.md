@@ -15,7 +15,7 @@ http://www.revisedcommonversion.com or http://rcv.xyz
 
 This work and the accompanying materials are made available under the terms of the Eclipse Public License 2.0. Information on this license may be found at https://www.eclipse.org/legal/epl-2.0/.
 
-You are free to copy, display, distribute, quote, or share this work. You are also free to modify this work and create derivative works of your own based upon this work.
+You are free to copy, display, distribute, quote, or share this work in part or in whole. You are also free to modify this work or create derivative works of your own based upon this work.
 
 > "Freely you have received, freely give." -Matthew 10:8
 
