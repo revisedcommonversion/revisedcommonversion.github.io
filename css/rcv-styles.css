@@ -139,6 +139,10 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 .ch-outline { color: #3a3a41; font-size: .9em; font-style: italic;
     margin: 2em 0; text-align: center; }
 
+/* Styling for passages of poetry. */
+.poetry { padding-left: 3.5em; text-indent: -3.5em; }
+.in-verse { text-indent: -1.5em; }
+
 /* Styling for Greek and Hebrew text. */
 .gr-heb { font-family: serif; }
 
