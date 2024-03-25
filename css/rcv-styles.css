@@ -142,7 +142,7 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 /* Styling for passages of poetry. */
 .poetry { padding-left: 3.5em; text-indent: -3.5em; }
 .in-verse { text-indent: -1.5em; }
-.linebr { color: #E7E7E7;  padding-left: 0.38em; }
+.linebr { color: #E7E7E7; padding-left: 0.38em; }
 
 /* Styling for Greek and Hebrew text. */
 .gr-heb { font-family: serif; }
