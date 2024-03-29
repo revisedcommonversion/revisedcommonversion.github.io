@@ -13,6 +13,7 @@
 
 /******************************************************************************
 Contents:
+  - Font Face Rules
   - Reset and Element Styles
   - Sitewide Styles
   - Styles Relating to Scripture Text
@@ -20,12 +21,42 @@ Contents:
   - Media Query for Mobile Devices
 ******************************************************************************/
 
+/*******                       FONT FACE RULES                         *******/
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url('../fonts/DejaVuSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url('../fonts/DejaVuSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url('../fonts/DejaVuSans-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url('../fonts/DejaVuSans-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 /*******                    RESET AND ELEMENT STYLES                   *******/
 
 /* Set all margins and padding to 0 */
 * { margin: 0; padding: 0; }
 
-body { background-color: #3a3a41; font-family: sans-serif; font-size: 110%; }
+body { background-color: #3a3a41; font-family: "DejaVu Sans", sans-serif; font-size: 110%; }
 
 h1.site-title { color: #ff8900; font-size: 2em; }
 h2 { font-size: 1.75em; margin-bottom: 0.75em; }
