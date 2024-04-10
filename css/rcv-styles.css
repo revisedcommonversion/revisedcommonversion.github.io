@@ -172,7 +172,7 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 
 /* Styling for passages of poetry. */
 .poetry { padding-left: 4.5em; text-indent: -4.5em; }
-.in-verse { text-indent: -1.75em; }
+.in-verse { text-indent: -1.37em; }
 .linebr { color: #E7E7E7; padding-left: 0.38em; }
 .vsnumsp { padding-right: 1.75em; }
 
