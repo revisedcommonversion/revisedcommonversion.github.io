@@ -177,7 +177,8 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
 .vsnumsp { padding-right: 1.75em; }
 
 /* Styling for Greek and Hebrew text. */
-.gr-heb { font-family: serif; }
+/*Future use under consideration, but may be removed.*/
+/*.gr-heb { font-family: serif; }*/
 
 /* Words of Christ */
 .woc { color: #073763; }
