@@ -164,7 +164,7 @@ div#content, div#page { background-color: #ffffff; border-radius: 10px;
     color: silver; }
 
 .book-extras { border-bottom: 1px solid #3a3a41; border-top: 1px solid #3a3a41;
-    padding: 1.5em 0; }
+    margin-bottom: 1em; padding: 1.5em 0; }
 
 /* Styling for chapter outline. */
 .ch-outline { color: #3a3a41; font-size: .9em; font-style: italic;
