@@ -19,6 +19,7 @@ Contents:
   - Styles Relating to Scripture Text
   - Single-page or Limited Use Styles
   - Media Query for Mobile Devices
+  - Media Query for Printing
 ******************************************************************************/
 
 /*******                       FONT FACE RULES                         *******/
@@ -241,3 +242,10 @@ table.daily-reading tr td:nth-child(1) { font-weight: bold; }
   .ch-outline { margin: 1.5em 0; }
 }
 
+/*******                   MEDIA QUERY FOR PRINTING                    *******/
+
+@media print {
+    p, dd { orphans: 2; widows: 2; }
+
+    #page { break-after: always; }
+}
