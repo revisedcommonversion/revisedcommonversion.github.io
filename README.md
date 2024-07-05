@@ -29,17 +29,17 @@ If you have any questions concerning the terms or usage of this text, please fee
 
 ## About:
 
-The Revised Common Version (RCV) is a derivative work of Noah Webster's 1833 Common Version of the Bible (a revision of the King James Version). As with Webster's Common Version, the RCV aims to make updates to words and phrases so that they are better understood by the everyday reader who may not read the Scriptures with the aid of commentaries. Care has been taken so that changes to the text are not theologically motivated, but rather are consistent with the original text. Changes include the updating of archaic words to the current equivalent, rearranging of sentences to better follow current English, adjusting of punctuation to aid the reader in the flow of reading, addition of quotation marks, notation of Old Testament quotes in the New Testament, and an outline for each chapter. Digital versions of the RCV have the words of Christ in blue.
+The Revised Common Version (RCV) is a derivative work of Noah Webster's 1833 Common Version of the Bible (a revision of the King James Version). As with Webster's Common Version, the RCV aims to make updates to words and phrases so that they are better understood by the everyday reader who may not read the Scriptures with the aid of commentaries. Care has been taken so that changes to the text are not theologically motivated. Changes include the updating of archaic words to the current equivalent, rearranging of sentences to better follow current English, revising of words to correspond with American English, adjusting of punctuation to aid the reader in the flow of reading, addition of quotation marks, notation of Old Testament quotes in the New Testament, and an outline for each chapter. Digital versions of the RCV have the words of Christ in blue.
 
 ## Sources:
 
 Sources used in the revision process of the RCV are in the Public Domain. They are divided into three groups: Biblical Texts, Reference Texts, and Commentaries.
 
 Biblical Texts
-: King James Version, The Septuagint Version of the Old Testament and Apocrypha (Brenton), The Interlinear Literal Translation of the Greek New Testament (G.R. Berry), Young's Literal Translation, World English Bible, American Standard Version, JPS Tanach (1917), The Greek New Testament (Tregelles), The Greek New Testament (Nestle, 1904), Geneva Bible (1560), Biblia Sacra Juxta Vulgatam Clementinam.
+: King James Version, The Septuagint Version of the Old Testament and Apocrypha (Brenton), The Interlinear Literal Translation of the Greek New Testament (G.R. Berry), Young's Literal Translation, World English Bible, American Standard Version (1901), JPS Tanakh (1917), The Greek New Testament (Tregelles), The Greek New Testament (Nestle, 1904), Geneva Bible (1560), Biblia Sacra Juxta Vulgatam Clementinam.
 
 Reference Texts
-: Brown-Driver-Briggs Hebrew and English Lexicon, Thayer's Greek Lexicon, The Analytical Greek Lexicon (Bagster), Webster's Revised Unabridged Dictionary of the English Language (1828 and 1913), Strong's Exhaustive Concordance, The Treasury of Scripture Knowledge.
+: Brown-Driver-Briggs Hebrew and English Lexicon, Thayer's Greek Lexicon, The Analytical Greek Lexicon (Bagster), Webster's Revised Unabridged Dictionary of the English Language (1828 and 1913), Strong's Exhaustive Concordance, The Treasury of Scripture Knowledge (chapter outlines).
 
 Commentaries
-: The Pulpit Commentary, Jamieson-Fausset-Brown Bible Commentary, John Gill's Exposition of the Entire Bible, Matthew Henry's Commentary on the Whole Bible, and Wesley's Notes on the Bible.
+: The Pulpit Commentary, Jamieson-Fausset-Brown Bible Commentary, Matthew Henry's Commentary on the Whole Bible, John Gill's Exposition of the Entire Bible, John Calvin's Commentary on the Bible, Matthew Poole's Commentary, the Kiel-Delitzsch Biblical Commentary on the Old Testament, Adam Clarke's Commentary on the Bible (chapter outlines), and Wesley's Notes on the Bible (chapter outlines).
