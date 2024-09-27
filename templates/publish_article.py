@@ -17,18 +17,18 @@ import time # For getting the current date.
 
 ######################################################################### Setup.
 
-title_pattern = "\[\[  title  \]\]"
-description_pattern = "\[\[  description  \]\]"
-summary_title_pattern = "\[\[  summary_title  \]\]"
-pub_date_pattern = "\[\[  pub_date  \]\]"
-url_pattern = "\[\[  url  \]\]"
+title_pattern = "\\[\\[  title  \\]\\]"
+description_pattern = "\\[\\[  description  \\]\\]"
+summary_title_pattern = "\\[\\[  summary_title  \\]\\]"
+pub_date_pattern = "\\[\\[  pub_date  \\]\\]"
+url_pattern = "\\[\\[  url  \\]\\]"
 
 publish_date = time.strftime("%a, %d %b %Y") # Get the current date. Format: Thu, 06 Sep 2018.
 publish_year = time.strftime("%Y") # Get the current year.
 
 article_file_name = input("Type in the file name without the extension: ")
 article_file = article_file_name + ".html"
-article_url = "https:\/\/www.revisedcommonversion.com\/pages\/articles\/" + publish_year + "\/" + article_file
+article_url = "https:\\/\\/www.revisedcommonversion.com\\/pages\\/articles\\/" + publish_year + "\\/" + article_file
 
 article_title = input("Article title: ")
 article_summary_title = input("Article summary title: ")
