@@ -11,7 +11,7 @@ http://www.revisedcommonversion.com or http://rcv.xyz
 
 ## License:
 
-© 2024 William Masopust
+© 2025 William Masopust
 
 This work and the accompanying materials are made available under the terms of the Eclipse Public License 2.0. Information on this license may be found at https://www.eclipse.org/legal/epl-2.0/.
 
