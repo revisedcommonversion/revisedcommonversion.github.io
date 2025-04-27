@@ -3,7 +3,7 @@
 
 **A modern Bible revision of a classic Bible text.**
 
-*2025 Edition [r2503]:* (2008-2025)
+*2025 Edition [r2504]:* (2008-2025)
 
 Edited by: William Masopust
 
