@@ -7,7 +7,7 @@
 
 Edited by: William Masopust
 
-http://www.revisedcommonversion.com or http://rcv.xyz
+https://www.revisedcommonversion.com or https://rcv.us.com
 
 ## License:
 
@@ -25,7 +25,7 @@ Any distribution of the RCV text, with or without modifications or as a derivati
 
 The title, *The Holy Bible: Revised Common Version*, and the RCV logo are unregistered trademarks. They may not be used for derivative works, except as may be necessary to comply with the attribution requirements of the license.
 
-If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`info@revisedcommonversion.com`).
+If you have any questions concerning the terms or usage of this text, please feel free to contact me via e-mail (`info@rcv.us.com`).
 
 ## About:
 
